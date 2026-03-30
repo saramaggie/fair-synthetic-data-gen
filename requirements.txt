@@ -2,3 +2,5 @@ pandas
 matplotlib  # https://github.com/matplotlib/matplotlib
 scikit-learn  # https://github.com/scikit-learn/scikit-learn
 fairlearn # https://github.com/fairlearn/fairlearn
+matplotlib
+sdv  # https://github.com/sdv-dev/SDV/

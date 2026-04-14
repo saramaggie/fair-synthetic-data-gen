@@ -5,3 +5,4 @@ fairlearn # https://github.com/fairlearn/fairlearn
 numpy==1.26.4
 seaborn
 ctgan
+tabfairgan

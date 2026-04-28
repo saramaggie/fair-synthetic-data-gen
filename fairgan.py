@@ -5,6 +5,14 @@ import torch.nn as nn
 import torch.optim as optim
 
 
+"""Model Architecture
+
+FairGAN consists of:
+- Generator
+- Discriminator
+- Fairness discriminator """
+
+
 # Generator
 class Generator(nn.Module):
     def __init__(self, input_dim: int, noise_dim=100):
@@ -51,17 +59,13 @@ class FairGAN:
     """FairGAN implementation for tabular data.
 
     Args:
-        df: Input DataFrame containing the data to be modeled.
-        sensitive_feature: Name of the column representing the sensitive attribute (e.g., sex, race)
-        target_feature: Name of the column representing the target attribute (e.g., income)
-        epochs: Number of training epochs (default: 200)
-        noise_dim: Dimensionality of the noise vector for the generator (default: 100)
-        lr: Learning rate for the optimizers (default: 0.001)
-        verbose: Whether to have print statements for progress results. (default: False)
-
-    Methods:
-        train: Trains the FairGAN model on the provided data.
-        generate: Generates synthetic data using the trained generator.
+        df (pd.DataFrame): Input DataFrame containing the data to be modeled.
+        sensitive_feature (str): Name of the column representing the sensitive attribute (e.g., sex, race)
+        target_feature (str): Name of the column representing the target attribute (e.g., income)
+        epochs (int): Number of training epochs (default: 200)
+        noise_dim (int): Dimensionality of the noise vector for the generator (default: 100)
+        lr (float): Learning rate for the optimizers (default: 0.001)
+        verbose (bool): Whether to have print statements for progress results. (default: False)
     """
 
     def __init__(

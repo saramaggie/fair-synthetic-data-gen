@@ -23,24 +23,8 @@
       "description": "Type of changes",
       "options": [
         {
-          "label": "model",
-          "description": "Adding or modifying a specific model. Replace \"model\" with the name of the model"
-        },
-        {
-          "label": "param",
-          "description": "Modification of hyperparameters. Add model name to typ if the change is specific to a model, e.g., \"param(model): change learning rate\""
-        },
-        {
-          "label": "data",
-          "description": "Adding or modifying dataset files"
-        },
-        {
-          "label": "refactor",
-          "description": "A code change that neither fixes a bug nor adds a feature. Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)"
-        },
-        {
-          "label": "fix",
-          "description": "A bug fix. Add SHA if the commit relates to a specific commit"
+          "label": "---",
+          "value": ""
         },
         {
           "label": "chore",
@@ -51,11 +35,36 @@
           "description": "Documentation only changes"
         },
         {
+          "label": "fix",
+          "description": "A bug fix. Add SHA if the commit relates to a specific commit"
+        },
+        {
+          "label": "refactor",
+          "description": "A code change that neither fixes a bug nor adds a feature. Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)"
+        },
+        {
           "label": "revert"
         },
         {
           "label": "test",
           "description": "Adding missing tests or correcting existing tests"
+        },
+        {
+          "label": "data",
+          "description": "Adding or modifying dataset files"
+        },
+        {
+          "label": "model",
+          "description": "Adding or modifying a specific model. Replace \"model\" with the name of the model"
+        },
+        {
+          "label": "param",
+          "description": "Modification of hyperparameters. Add model name to typ if the change is specific to a model, e.g., \"param(model): change learning rate\""
+        },
+        {
+          "label": "eval",
+          "value": "",
+          "description": "Changes to the evaluation or statistical descriptions"
         }
       ]
     },

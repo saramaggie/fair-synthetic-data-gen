@@ -18,7 +18,9 @@ class Generator(nn.Module):
     def __init__(self, input_dim: int, noise_dim=100):
         super().__init__()
         self.model = nn.Sequential(
-            nn.Linear(noise_dim, 128), nn.ReLU(), nn.Linear(128, input_dim)
+            nn.Linear(noise_dim, 128), 
+            nn.ReLU(), 
+            nn.Linear(128, input_dim)
         )
 
     def forward(self, z):

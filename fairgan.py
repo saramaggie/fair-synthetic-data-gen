@@ -3,6 +3,14 @@ from sklearn.preprocessing import LabelEncoder
 import torch
 import torch.nn as nn
 import torch.optim as optim
+import random
+import numpy as np
+
+SEED = 42
+
+random.seed(SEED)
+np.random.seed(SEED)
+torch.manual_seed(SEED)
 
 
 """Model Architecture
@@ -101,7 +109,7 @@ class FairGAN:
             lr = self._lr
 
         S_index = self.df.columns.get_loc(self.sensitive_feature)
-        Y_index = self.df.columns.get_loc(self.target_feature)
+        #Y_index = self.df.columns.get_loc(self.target_feature)
 
         self._generator = Generator(
             noise_dim=self.noise_dim, input_dim=self.df.shape[1]

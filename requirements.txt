@@ -2,11 +2,10 @@ pandas
 torch
 matplotlib  # https://github.com/matplotlib/matplotlib
 fairlearn # https://github.com/fairlearn/fairlearn
-numpy
+numpy==1.26.4
 scikit-learn  # https://github.com/scikit-learn/scikit-learn
 seaborn
 ctgan
 tabfairgan
 nbconvert
 ipython
-ipykernel

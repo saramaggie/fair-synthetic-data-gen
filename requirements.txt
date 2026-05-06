@@ -1,9 +1,11 @@
 pandas
 torch
 matplotlib  # https://github.com/matplotlib/matplotlib
-scikit-learn  # https://github.com/scikit-learn/scikit-learn
 fairlearn # https://github.com/fairlearn/fairlearn
 numpy==1.26.4
+scikit-learn  # https://github.com/scikit-learn/scikit-learn
 seaborn
 ctgan
 tabfairgan
+nbconvert
+ipython

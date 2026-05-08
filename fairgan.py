@@ -1,5 +1,5 @@
 import pandas as pd
-from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import LabelEncoder, StandardScaler
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -70,8 +70,8 @@ class FairGAN:
 
     Args:
         df (pd.DataFrame): Input DataFrame containing the data to be modeled.
-        sensitive_feature (str): Name of the column representing the sensitive attribute (e.g., sex, race)
-        target_feature (str): Name of the column representing the target attribute (e.g., income)
+        sensitive_feature (str): Name of the column representing the sensitive attribute (e.g. race)
+        target_feature (str): Name of the column representing the target attribute (e.g., is_recid)
         epochs (int): Number of training epochs (default: 200)
         noise_dim (int): Dimensionality of the noise vector for the generator (default: 100)
         lr (float): Learning rate for the optimizers (default: 0.001)
@@ -96,9 +96,40 @@ class FairGAN:
         self.df = df.copy()
         self.verbose = verbose
 
+        # Store Metadata
+        self.encoders = {}
+        self.integer_columns = []
+        self.binary_columns = []
+        self.categorical_columns = []
+
+        # for col in self.df.columns:
+        #     if self.df[col].dtype == "object":
+        #         self.df[col] = LabelEncoder().fit_transform(self.df[col])
+
+        # Lable Encode Categorical Columns
         for col in self.df.columns:
             if self.df[col].dtype == "object":
-                self.df[col] = LabelEncoder().fit_transform(self.df[col])
+                self.categorical_columns.append(col)
+                le = LabelEncoder()
+                self.df[col] = le.fit_transform(
+                    self.df[col].astype(str)
+                )
+                self.encoders[col] = le
+
+        # Identify Column types
+        for col in self.df.columns:
+            unique_vals = self.df[col].nunique()
+            if unique_vals == 2:
+                self.binary_columns.append(col)
+            elif pd.api.types.is_integer_dtype(self.df[col]):
+                self.integer_columns.append(col)
+
+        # Scale data
+        self.scaler = StandardScaler()
+        self.numeric_columns = self.df.columns.tolist()
+        self.df[self.numeric_columns] = self.scaler.fit_transform(
+            self.df[self.numeric_columns]
+        )
 
     def train(
         self,
@@ -172,7 +203,7 @@ class FairGAN:
             fair_loss = criterion(S_fake_pred, target_uncertain)
 
             # TOTAL LOSS
-            total_g_loss = g_loss - lambda_fair * fair_loss
+            total_g_loss = g_loss + lambda_fair * fair_loss
 
             g_optimizer.zero_grad()
             total_g_loss.backward()
@@ -183,12 +214,41 @@ class FairGAN:
                     f"Epoch {epoch} | D1: {d1_loss.item():.4f} | D2: {d2_loss.item():.4f} | G: {g_loss.item():.4f} | Fair: {fair_loss.item():.4f}"
                 )
 
-    def generate(self, num_samples: int) -> pd.DataFrame:
-        z = torch.randn(num_samples, self.noise_dim)
-        synthetic = self._generator(z).detach().numpy()
+    def generate(self, num_samples: int) -> pd.DataFrame: 
+        self._generator.eval()
+        with torch.no_grad():
+            z = torch.randn(num_samples, self.noise_dim)
+            synthetic = self._generator(z).detach().numpy()
 
         fairgan_synthetic_data = pd.DataFrame(
             synthetic, columns=self.df.columns
         )
+
+        # Reverse Scaling
+        fairgan_synthetic_data[self.numeric_columns] = (
+            self.scaler.inverse_transform(
+                fairgan_synthetic_data[self.numeric_columns]
+            )
+        )
+
+        # Handling integer columns
+        for col in self.integer_columns:
+            fairgan_synthetic_data[col] = (
+                fairgan_synthetic_data[col].round().astype(int)
+            )
+
+        # Handling binary columns
+        for col in self.binary_columns:
+            fairgan_synthetic_data[col] = (fairgan_synthetic_data[col] > 0.5).astype(int)
+
+        # Reverse lable encoding
+        for col, le in self.encoders.items():
+            fairgan_synthetic_data[col] = (fairgan_synthetic_data[col].round())
+            fairgan_synthetic_data[col] = (
+                fairgan_synthetic_data[col].clip(0, len(le.classes_) - 1)
+            )
+            fairgan_synthetic_data[col] = le.inverse_transform(
+                fairgan_synthetic_data[col].astype(int)
+            )
 
         return fairgan_synthetic_data

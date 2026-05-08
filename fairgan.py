@@ -94,6 +94,7 @@ class FairGAN:
         self.sensitive_feature = sensitive_feature
         self.target_feature = target_feature
         self.df = df.copy()
+        self.df["race"] = (self.df["race"] == "African-American").astype(int)
         self.verbose = verbose
 
         # Store Metadata
@@ -126,7 +127,13 @@ class FairGAN:
 
         # Scale data
         self.scaler = StandardScaler()
-        self.numeric_columns = self.df.columns.tolist()
+        self.numeric_columns = []
+        for col in self.df.columns:
+            if (
+                col not in self.categorical_columns
+                and col not in self.binary_columns
+            ):
+                self.numeric_columns.append(col)
         self.df[self.numeric_columns] = self.scaler.fit_transform(
             self.df[self.numeric_columns]
         )

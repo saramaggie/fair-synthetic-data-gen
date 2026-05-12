@@ -1,0 +1,31 @@
+2026-05-12 14:11:11,428 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+2026-05-12 14:11:11,490 [fit] [INFO]  Guidance: There are no missing values in column age. Extra column not created.
+2026-05-12 14:11:11,742 [fit] [INFO]  Guidance: There are no missing values in column juv_fel_count. Extra column not created.
+2026-05-12 14:11:11,871 [fit] [INFO]  Guidance: There are no missing values in column juv_misd_count. Extra column not created.
+2026-05-12 14:11:11,967 [fit] [INFO]  Guidance: There are no missing values in column juv_other_count. Extra column not created.
+2026-05-12 14:11:12,096 [fit] [INFO]  Guidance: There are no missing values in column priors_count. Extra column not created.
+2026-05-12 14:12:16,516 [run_FairGAN] [INFO]  
+
+Starting to train FairGAN with different λ_fair values
+2026-05-12 14:12:16,517 [run_FairGAN] [INFO]  
+Training FairGAN with λ_fair = 0.0
+2026-05-12 14:12:19,573 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.0
+2026-05-12 14:12:19,574 [run_FairGAN] [INFO]  
+Training FairGAN with λ_fair = 0.1
+2026-05-12 14:12:22,733 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.1
+2026-05-12 14:12:22,733 [run_FairGAN] [INFO]  
+Training FairGAN with λ_fair = 0.5
+2026-05-12 14:12:25,990 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.5
+2026-05-12 14:12:25,990 [run_FairGAN] [INFO]  
+Training FairGAN with λ_fair = 0.7
+2026-05-12 14:12:29,173 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.7
+2026-05-12 14:12:29,174 [run_FairGAN] [INFO]  
+Training FairGAN with λ_fair = 1.0
+2026-05-12 14:12:32,363 [run_FairGAN] [INFO]  Completed FairGAN_lambda_1.0
+2026-05-12 14:12:32,365 [run_TabFairGAN] [INFO]  
+
+Starting to train TabFairGAN with different λ values
+2026-05-12 14:12:32,365 [run_TabFairGAN] [INFO]  
+Training TabFairGAN with λ = 0.0

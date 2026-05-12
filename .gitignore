@@ -17,6 +17,13 @@ ENV/
 env.bak/
 venv.bak/
 
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
 # Visual Studio Code
 .vscode/
 
@@ -25,3 +32,4 @@ venv.bak/
 
 # Generated notebook runner output
 _run/*.py
+models/

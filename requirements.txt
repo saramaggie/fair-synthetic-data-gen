@@ -10,3 +10,4 @@ tabfairgan
 nbconvert
 ipython
 ipykernel
+ipywidgets

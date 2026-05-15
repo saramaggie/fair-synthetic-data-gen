@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-RUN_DIR="_run"
+RUN_DIR="_utilities"
 
 source "${RUN_DIR}/setup_venv.sh"
 pip install -q -r requirements.txt

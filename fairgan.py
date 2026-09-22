@@ -23,12 +23,14 @@ FairGAN consists of:
 
 # Generator
 class Generator(nn.Module):
-    def __init__(self, input_dim: int, noise_dim=100):
+    """GDec(z, s) -> (x_hat, y_hat_logit). Conditioned on the sensitive attribute."""
+
+    def __init__(self, x_dim: int, noise_dim: int = 100):
         super().__init__()
         self.model = nn.Sequential(
             nn.Linear(noise_dim, 128),
             nn.ReLU(),
-            nn.Linear(128, input_dim),
+            nn.Linear(128, x_dim),
         )
 
     def forward(self, z):
@@ -37,10 +39,12 @@ class Generator(nn.Module):
 
 # Real/Fake Discriminator (D1)
 class Discriminator(nn.Module):
-    def __init__(self, input_dim: int):
+    """D1: real (x, y, s) vs. fake (x_hat, y_hat, s_hat)."""
+
+    def __init__(self, x_dim: int):
         super().__init__()
         self.model = nn.Sequential(
-            nn.Linear(input_dim, 128),
+            nn.Linear(x_dim, 128),
             nn.ReLU(),
             nn.Linear(128, 1),
             nn.Sigmoid(),
@@ -52,10 +56,12 @@ class Discriminator(nn.Module):
 
 # Fairness Discriminator (D2)
 class FairnessDiscriminator(nn.Module):
-    def __init__(self, input_dim: int):
+    """D2: predicts s from (x_hat, y_hat) -- no access to s."""
+
+    def __init__(self, x_dim: int):
         super().__init__()
         self.model = nn.Sequential(
-            nn.Linear(input_dim, 128),
+            nn.Linear(x_dim, 128),
             nn.ReLU(),
             nn.Linear(128, 1),
             nn.Sigmoid(),
@@ -137,6 +143,8 @@ class FairGAN:
                 self.df[self.numeric_columns]
             )
 
+        self.x_dim = self.df.shape[1]
+
     def train(
         self,
         lambda_fair=0.05,
@@ -148,11 +156,9 @@ class FairGAN:
         S_index = self.df.columns.get_loc(self.sensitive_feature)
         # Y_index = self.df.columns.get_loc(self.target_feature)
 
-        self._generator = Generator(
-            noise_dim=self.noise_dim, input_dim=self.df.shape[1]
-        )
-        self._discriminator = Discriminator(input_dim=self.df.shape[1])
-        self._fairness_discriminator = FairnessDiscriminator(input_dim=self.df.shape[1])
+        self._generator = Generator(noise_dim=self.noise_dim, x_dim=self.x_dim)
+        self._discriminator = Discriminator(x_dim=self.x_dim)
+        self._fairness_discriminator = FairnessDiscriminator(x_dim=self.x_dim)
 
         criterion = nn.BCELoss()
 
@@ -161,13 +167,13 @@ class FairGAN:
         d2_optim = optim.Adam(self._fairness_discriminator.parameters(), lr=lr)
 
         data = torch.tensor(self.df.values, dtype=torch.float32)
+        n = len(data)
 
         for epoch in range(self.epochs):
-            # Train D1 (real vs fake)
-            real_labels = torch.ones(len(data), 1)
-            fake_labels = torch.zeros(len(data), 1)
+            real_labels = torch.ones(n, 1)
+            fake_labels = torch.zeros(n, 1)
 
-            z = torch.randn(len(data), self.noise_dim)
+            z = torch.randn(n, self.noise_dim)
             fake_data = self._generator(z)
 
             d1_real = self._discriminator(data)
@@ -190,7 +196,7 @@ class FairGAN:
             d2_optim.step()
 
             # Train Generator
-            z = torch.randn(len(data), self.noise_dim)
+            z = torch.randn(n, self.noise_dim)
             fake_data = self._generator(z)
 
             # GAN loss (fool D1)

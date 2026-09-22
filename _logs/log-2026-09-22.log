@@ -1,0 +1,5 @@
+2026-09-22 13:51:11,876 [run_TabFairGAN] [INFO]  
+
+Starting to train TabFairGAN with different λ values
+2026-09-22 13:51:11,879 [run_TabFairGAN] [INFO]  
+Training TabFairGAN with λ = 0.0

@@ -25,11 +25,11 @@ FairGAN consists of:
 class Generator(nn.Module):
     def __init__(self, input_dim: int, noise_dim=100):
         super().__init__()
-        self.model = nn.Sequential(  # noqa: E501
-            nn.Linear(noise_dim, 128),  # noqa: E501
-            nn.ReLU(),  # noqa: E501
-            nn.Linear(128, input_dim),  # noqa: E501
-        )  # noqa: E501
+        self.model = nn.Sequential(
+            nn.Linear(noise_dim, 128),
+            nn.ReLU(),
+            nn.Linear(128, input_dim),
+        )
 
     def forward(self, z):
         return self.model(z)
@@ -84,11 +84,13 @@ class FairGAN:
         sensitive_feature: str,
         target_feature: str,
         epochs=200,
+        pretrain_epochs=20,
         noise_dim=100,
         lr=0.001,
         verbose=False,
     ):
         self.epochs = epochs
+        self.pretrain_epochs = pretrain_epochs
         self.noise_dim = noise_dim
         self._lr = lr
         self.sensitive_feature = sensitive_feature
@@ -118,15 +120,22 @@ class FairGAN:
             elif pd.api.types.is_integer_dtype(self.df[col]):
                 self.integer_columns.append(col)
 
+        # Check that sensitive and target features are binary
+        for feature in [sensitive_feature, target_feature]:
+            if self.df[feature].nunique() != 2:
+                raise ValueError(f"'{feature}' must be binary.")
+
         # Scale numeric columns
         self.scaler = StandardScaler()
-        self.numeric_columns = []
-        for col in self.df.columns:
-            if col not in self.categorical_columns and col not in self.binary_columns:
-                self.numeric_columns.append(col)
-        self.df[self.numeric_columns] = self.scaler.fit_transform(
-            self.df[self.numeric_columns]
-        )
+        self.numeric_columns = [
+            col
+            for col in self.df.columns
+            if col not in self.categorical_columns and col not in self.binary_columns
+        ]
+        if self.numeric_columns:
+            self.df[self.numeric_columns] = self.scaler.fit_transform(
+                self.df[self.numeric_columns]
+            )
 
     def train(
         self,
@@ -139,7 +148,9 @@ class FairGAN:
         S_index = self.df.columns.get_loc(self.sensitive_feature)
         # Y_index = self.df.columns.get_loc(self.target_feature)
 
-        self._generator = Generator(noise_dim=self.noise_dim, input_dim=self.df.shape[1])
+        self._generator = Generator(
+            noise_dim=self.noise_dim, input_dim=self.df.shape[1]
+        )
         self._discriminator = Discriminator(input_dim=self.df.shape[1])
         self._fairness_discriminator = FairnessDiscriminator(input_dim=self.df.shape[1])
 
@@ -219,11 +230,15 @@ class FairGAN:
 
         # Handling integer columns
         for col in self.integer_columns:
-            fairgan_synthetic_data[col] = fairgan_synthetic_data[col].round().astype(int)
+            fairgan_synthetic_data[col] = (
+                fairgan_synthetic_data[col].round().astype(int)
+            )
 
         # Handling binary columns
         for col in self.binary_columns:
-            fairgan_synthetic_data[col] = (fairgan_synthetic_data[col] > 0.5).astype(int)
+            fairgan_synthetic_data[col] = (fairgan_synthetic_data[col] > 0.5).astype(
+                int
+            )
 
         # Reverse lable encoding
         for col, le in self.encoders.items():

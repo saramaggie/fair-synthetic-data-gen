@@ -1,10 +1,10 @@
-import pandas as pd
-from sklearn.preprocessing import LabelEncoder, StandardScaler
-import torch
-import torch.nn as nn
-import torch.optim as optim
 import random
+
 import numpy as np
+import pandas as pd
+import torch
+from sklearn.preprocessing import LabelEncoder, StandardScaler
+from torch import nn, optim
 
 SEED = 42
 
@@ -94,7 +94,6 @@ class FairGAN:
         self.sensitive_feature = sensitive_feature
         self.target_feature = target_feature
         self.df = df.copy()
-        self.df["race"] = (self.df["race"] == "African-American").astype(int)
         self.verbose = verbose
 
         # Store Metadata
@@ -103,11 +102,7 @@ class FairGAN:
         self.binary_columns = []
         self.categorical_columns = []
 
-        # for col in self.df.columns:
-        #     if self.df[col].dtype == "object":
-        #         self.df[col] = LabelEncoder().fit_transform(self.df[col])
-
-        # Lable Encode Categorical Columns
+        # Label-encode categorical columns
         for col in self.df.columns:
             if self.df[col].dtype == "object":
                 self.categorical_columns.append(col)
@@ -115,7 +110,7 @@ class FairGAN:
                 self.df[col] = le.fit_transform(self.df[col].astype(str))
                 self.encoders[col] = le
 
-        # Identify Column types
+        # Identify column types
         for col in self.df.columns:
             unique_vals = self.df[col].nunique()
             if unique_vals == 2:
@@ -123,7 +118,7 @@ class FairGAN:
             elif pd.api.types.is_integer_dtype(self.df[col]):
                 self.integer_columns.append(col)
 
-        # Scale data
+        # Scale numeric columns
         self.scaler = StandardScaler()
         self.numeric_columns = []
         for col in self.df.columns:

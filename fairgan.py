@@ -25,11 +25,11 @@ FairGAN consists of:
 class Generator(nn.Module):
     def __init__(self, input_dim: int, noise_dim=100):
         super().__init__()
-        self.model = nn.Sequential(
-            nn.Linear(noise_dim, 128), 
-            nn.ReLU(), 
-            nn.Linear(128, input_dim)
-        )
+        self.model = nn.Sequential(  # noqa: E501
+            nn.Linear(noise_dim, 128),  # noqa: E501
+            nn.ReLU(),  # noqa: E501
+            nn.Linear(128, input_dim),  # noqa: E501
+        )  # noqa: E501
 
     def forward(self, z):
         return self.model(z)
@@ -112,9 +112,7 @@ class FairGAN:
             if self.df[col].dtype == "object":
                 self.categorical_columns.append(col)
                 le = LabelEncoder()
-                self.df[col] = le.fit_transform(
-                    self.df[col].astype(str)
-                )
+                self.df[col] = le.fit_transform(self.df[col].astype(str))
                 self.encoders[col] = le
 
         # Identify Column types
@@ -129,10 +127,7 @@ class FairGAN:
         self.scaler = StandardScaler()
         self.numeric_columns = []
         for col in self.df.columns:
-            if (
-                col not in self.categorical_columns
-                and col not in self.binary_columns
-            ):
+            if col not in self.categorical_columns and col not in self.binary_columns:
                 self.numeric_columns.append(col)
         self.df[self.numeric_columns] = self.scaler.fit_transform(
             self.df[self.numeric_columns]
@@ -147,15 +142,11 @@ class FairGAN:
             lr = self._lr
 
         S_index = self.df.columns.get_loc(self.sensitive_feature)
-        #Y_index = self.df.columns.get_loc(self.target_feature)
+        # Y_index = self.df.columns.get_loc(self.target_feature)
 
-        self._generator = Generator(
-            noise_dim=self.noise_dim, input_dim=self.df.shape[1]
-        )
+        self._generator = Generator(noise_dim=self.noise_dim, input_dim=self.df.shape[1])
         self._discriminator = Discriminator(input_dim=self.df.shape[1])
-        self._fairness_discriminator = FairnessDiscriminator(
-            input_dim=self.df.shape[1]
-        )
+        self._fairness_discriminator = FairnessDiscriminator(input_dim=self.df.shape[1])
 
         criterion = nn.BCELoss()
 
@@ -166,7 +157,6 @@ class FairGAN:
         data = torch.tensor(self.df.values, dtype=torch.float32)
 
         for epoch in range(self.epochs):
-
             # Train D1 (real vs fake)
             real_labels = torch.ones(len(data), 1)
             fake_labels = torch.zeros(len(data), 1)
@@ -177,9 +167,7 @@ class FairGAN:
             d1_real = self._discriminator(data)
             d1_fake = self._discriminator(fake_data.detach())
 
-            d1_loss = criterion(d1_real, real_labels) + criterion(
-                d1_fake, fake_labels
-            )
+            d1_loss = criterion(d1_real, real_labels) + criterion(d1_fake, fake_labels)
 
             d1_optim.zero_grad()
             d1_loss.backward()
@@ -221,28 +209,22 @@ class FairGAN:
                     f"Epoch {epoch} | D1: {d1_loss.item():.4f} | D2: {d2_loss.item():.4f} | G: {g_loss.item():.4f} | Fair: {fair_loss.item():.4f}"
                 )
 
-    def generate(self, num_samples: int) -> pd.DataFrame: 
+    def generate(self, num_samples: int) -> pd.DataFrame:
         self._generator.eval()
         with torch.no_grad():
             z = torch.randn(num_samples, self.noise_dim)
             synthetic = self._generator(z).detach().numpy()
 
-        fairgan_synthetic_data = pd.DataFrame(
-            synthetic, columns=self.df.columns
-        )
+        fairgan_synthetic_data = pd.DataFrame(synthetic, columns=self.df.columns)
 
         # Reverse Scaling
-        fairgan_synthetic_data[self.numeric_columns] = (
-            self.scaler.inverse_transform(
-                fairgan_synthetic_data[self.numeric_columns]
-            )
+        fairgan_synthetic_data[self.numeric_columns] = self.scaler.inverse_transform(
+            fairgan_synthetic_data[self.numeric_columns]
         )
 
         # Handling integer columns
         for col in self.integer_columns:
-            fairgan_synthetic_data[col] = (
-                fairgan_synthetic_data[col].round().astype(int)
-            )
+            fairgan_synthetic_data[col] = fairgan_synthetic_data[col].round().astype(int)
 
         # Handling binary columns
         for col in self.binary_columns:
@@ -250,9 +232,9 @@ class FairGAN:
 
         # Reverse lable encoding
         for col, le in self.encoders.items():
-            fairgan_synthetic_data[col] = (fairgan_synthetic_data[col].round())
-            fairgan_synthetic_data[col] = (
-                fairgan_synthetic_data[col].clip(0, len(le.classes_) - 1)
+            fairgan_synthetic_data[col] = fairgan_synthetic_data[col].round()
+            fairgan_synthetic_data[col] = fairgan_synthetic_data[col].clip(
+                0, len(le.classes_) - 1
             )
             fairgan_synthetic_data[col] = le.inverse_transform(
                 fairgan_synthetic_data[col].astype(int)

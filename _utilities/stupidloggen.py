@@ -33,7 +33,7 @@ class StupidLogGenerator:
         msg_format_console = "[%(levelname)s]: %(message)s"
 
         # Create a file handler to write logs to a file
-        file_handler = logging.FileHandler(f"{DIR_PATH}/{log_folder}/{file_name}.log")
+        file_handler = logging.FileHandler(f"{log_folder}/{file_name}.log")
         file_handler.setFormatter(logging.Formatter(msg_format_file))
         root_logger.addHandler(file_handler)
 

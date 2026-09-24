@@ -1,0 +1,8 @@
+2026-09-21 18:46:16,722 [<module>] [INFO]  Successfully trained: ctgan
+2026-09-21 18:46:17,370 [<module>] [INFO]  Successfully trained: FairGAN_1.0
+2026-09-21 18:46:17,376 [<module>] [WARNING]  Skipping FairGAN_0.0: Found only 1 class
+2026-09-21 18:46:17,453 [<module>] [ERROR]  Failed to train FairGAN_0.0: This solver needs samples of at least 2 classes in the data, but the data contains only one class: 0
+2026-09-21 18:46:18,460 [<module>] [INFO]  Successfully trained: FairGAN_0.7
+2026-09-21 18:46:18,651 [<module>] [INFO]  Successfully trained: tvae
+2026-09-21 18:46:18,977 [<module>] [INFO]  Successfully trained: FairGAN_0.5
+2026-09-21 18:46:19,584 [<module>] [INFO]  Successfully trained: FairGAN_0.1

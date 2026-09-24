@@ -1,0 +1,1073 @@
+2026-09-22 14:43:10,526 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 14:44:58,185 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 14:45:18,154 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 14:47:38,410 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 14:47:56,098 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.5
+2026-09-22 14:47:56,471 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.7
+2026-09-22 14:50:12,620 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 14:50:29,092 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.5
+2026-09-22 14:50:29,563 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.7
+2026-09-22 14:55:25,186 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 14:56:37,972 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:02:01,204 [<module>] [INFO]  Successfully trained: ctgan
+2026-09-22 15:02:01,293 [<module>] [INFO]  Successfully trained: ctgan_synthetic_org.csv
+2026-09-22 15:02:01,408 [<module>] [INFO]  Successfully trained: ctgan_synthetic_three_col_removed.csv
+2026-09-22 15:02:01,408 [<module>] [WARNING]  Skipping FairGAN_0.0: Found only 1 class
+2026-09-22 15:02:01,418 [<module>] [ERROR]  Failed to train FairGAN_0.0: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(0)
+2026-09-22 15:02:01,483 [<module>] [INFO]  Successfully trained: FairGAN_0.1
+2026-09-22 15:02:01,484 [<module>] [WARNING]  Skipping FairGAN_0.5: Found only 1 class
+2026-09-22 15:02:01,494 [<module>] [ERROR]  Failed to train FairGAN_0.5: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(0)
+2026-09-22 15:02:01,495 [<module>] [WARNING]  Skipping FairGAN_0.7: Found only 1 class
+2026-09-22 15:02:01,505 [<module>] [ERROR]  Failed to train FairGAN_0.7: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(0)
+2026-09-22 15:02:01,528 [<module>] [INFO]  Successfully trained: FairGAN_1.0
+2026-09-22 15:02:01,582 [<module>] [INFO]  Successfully trained: tvae
+2026-09-22 15:23:48,884 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:23:48,884 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:23:48,884 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:23:48,884 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:28:14,518 [<module>] [INFO]  
+
+Running models for dataset version: Original
+2026-09-22 15:28:14,518 [<module>] [INFO]  
+
+Running models for dataset version: Original
+2026-09-22 15:28:14,518 [<module>] [INFO]  
+
+Running models for dataset version: Original
+2026-09-22 15:28:14,518 [<module>] [INFO]  
+
+Running models for dataset version: Original
+2026-09-22 15:28:14,521 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:28:14,521 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:28:14,521 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:28:14,521 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:28:14,528 [run_CTGAN] [ERROR]  CTGAN does not support null values in the continuous training data. Please remove all null values from your continuous training data.
+2026-09-22 15:28:14,528 [run_CTGAN] [ERROR]  CTGAN does not support null values in the continuous training data. Please remove all null values from your continuous training data.
+2026-09-22 15:28:14,528 [run_CTGAN] [ERROR]  CTGAN does not support null values in the continuous training data. Please remove all null values from your continuous training data.
+2026-09-22 15:28:14,528 [run_CTGAN] [ERROR]  CTGAN does not support null values in the continuous training data. Please remove all null values from your continuous training data.
+2026-09-22 15:28:14,530 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+2026-09-22 15:28:14,530 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+2026-09-22 15:28:14,530 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+2026-09-22 15:28:14,530 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+2026-09-22 15:28:15,921 [run_TVAE] [ERROR]  can only concatenate str (not "int") to str
+2026-09-22 15:28:15,921 [run_TVAE] [ERROR]  can only concatenate str (not "int") to str
+2026-09-22 15:28:15,921 [run_TVAE] [ERROR]  can only concatenate str (not "int") to str
+2026-09-22 15:28:15,921 [run_TVAE] [ERROR]  can only concatenate str (not "int") to str
+2026-09-22 15:28:16,384 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.0
+2026-09-22 15:28:16,384 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.0
+2026-09-22 15:28:16,384 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.0
+2026-09-22 15:28:16,384 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.0
+2026-09-22 15:28:16,866 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.1
+2026-09-22 15:28:16,866 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.1
+2026-09-22 15:28:16,866 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.1
+2026-09-22 15:28:16,866 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.1
+2026-09-22 15:28:17,411 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.5
+2026-09-22 15:28:17,411 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.5
+2026-09-22 15:28:17,411 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.5
+2026-09-22 15:28:17,411 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.5
+2026-09-22 15:28:17,923 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.7
+2026-09-22 15:28:17,923 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.7
+2026-09-22 15:28:17,923 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.7
+2026-09-22 15:28:17,923 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.7
+2026-09-22 15:28:18,549 [run_FairGAN] [INFO]  Completed FairGAN_lambda_1.0
+2026-09-22 15:28:18,549 [run_FairGAN] [INFO]  Completed FairGAN_lambda_1.0
+2026-09-22 15:28:18,549 [run_FairGAN] [INFO]  Completed FairGAN_lambda_1.0
+2026-09-22 15:28:18,549 [run_FairGAN] [INFO]  Completed FairGAN_lambda_1.0
+2026-09-22 15:29:32,745 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0
+2026-09-22 15:29:32,745 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0
+2026-09-22 15:29:32,745 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0
+2026-09-22 15:29:32,745 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0
+2026-09-22 15:30:46,801 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1
+2026-09-22 15:30:46,801 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1
+2026-09-22 15:30:46,801 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1
+2026-09-22 15:30:46,801 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1
+2026-09-22 15:32:10,553 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5
+2026-09-22 15:32:10,553 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5
+2026-09-22 15:32:10,553 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5
+2026-09-22 15:32:10,553 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5
+2026-09-22 15:33:29,366 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7
+2026-09-22 15:33:29,366 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7
+2026-09-22 15:33:29,366 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7
+2026-09-22 15:33:29,366 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7
+2026-09-22 15:34:48,535 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0
+2026-09-22 15:34:48,535 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0
+2026-09-22 15:34:48,535 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0
+2026-09-22 15:34:48,535 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0
+2026-09-22 15:34:48,567 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc With_age_cat
+2026-09-22 15:34:48,567 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc With_age_cat
+2026-09-22 15:34:48,567 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc With_age_cat
+2026-09-22 15:34:48,567 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc With_age_cat
+2026-09-22 15:34:48,572 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:34:48,572 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:34:48,572 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:34:48,572 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:35:13,149 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+2026-09-22 15:35:13,149 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+2026-09-22 15:35:13,149 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+2026-09-22 15:35:13,149 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+2026-09-22 15:35:21,482 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.0
+2026-09-22 15:35:21,482 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.0
+2026-09-22 15:35:21,482 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.0
+2026-09-22 15:35:21,482 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.0
+2026-09-22 15:35:22,021 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.1
+2026-09-22 15:35:22,021 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.1
+2026-09-22 15:35:22,021 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.1
+2026-09-22 15:35:22,021 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.1
+2026-09-22 15:35:22,561 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.5
+2026-09-22 15:35:22,561 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.5
+2026-09-22 15:35:22,561 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.5
+2026-09-22 15:35:22,561 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.5
+2026-09-22 15:35:23,225 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.7
+2026-09-22 15:35:23,225 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.7
+2026-09-22 15:35:23,225 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.7
+2026-09-22 15:35:23,225 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.7
+2026-09-22 15:35:23,705 [run_FairGAN] [INFO]  Completed FairGAN_lambda_1.0
+2026-09-22 15:35:23,705 [run_FairGAN] [INFO]  Completed FairGAN_lambda_1.0
+2026-09-22 15:35:23,705 [run_FairGAN] [INFO]  Completed FairGAN_lambda_1.0
+2026-09-22 15:35:23,705 [run_FairGAN] [INFO]  Completed FairGAN_lambda_1.0
+2026-09-22 15:35:32,592 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0
+2026-09-22 15:35:32,592 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0
+2026-09-22 15:35:32,592 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0
+2026-09-22 15:35:32,592 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0
+2026-09-22 15:35:42,994 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1
+2026-09-22 15:35:42,994 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1
+2026-09-22 15:35:42,994 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1
+2026-09-22 15:35:42,994 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1
+2026-09-22 15:35:55,445 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5
+2026-09-22 15:35:55,445 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5
+2026-09-22 15:35:55,445 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5
+2026-09-22 15:35:55,445 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5
+2026-09-22 15:36:05,444 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7
+2026-09-22 15:36:05,444 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7
+2026-09-22 15:36:05,444 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7
+2026-09-22 15:36:05,444 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7
+2026-09-22 15:36:14,857 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0
+2026-09-22 15:36:14,857 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0
+2026-09-22 15:36:14,857 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0
+2026-09-22 15:36:14,857 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0
+2026-09-22 15:36:14,862 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc Wo_age_cat
+2026-09-22 15:36:14,862 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc Wo_age_cat
+2026-09-22 15:36:14,862 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc Wo_age_cat
+2026-09-22 15:36:14,862 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc Wo_age_cat
+2026-09-22 15:36:14,865 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:36:14,865 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:36:14,865 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:36:14,865 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:36:14,870 [run_CTGAN] [ERROR]  Invalid columns found: {'age_cat'}
+2026-09-22 15:36:14,870 [run_CTGAN] [ERROR]  Invalid columns found: {'age_cat'}
+2026-09-22 15:36:14,870 [run_CTGAN] [ERROR]  Invalid columns found: {'age_cat'}
+2026-09-22 15:36:14,870 [run_CTGAN] [ERROR]  Invalid columns found: {'age_cat'}
+2026-09-22 15:36:14,874 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+2026-09-22 15:36:14,874 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+2026-09-22 15:36:14,874 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+2026-09-22 15:36:14,874 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+2026-09-22 15:36:21,829 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.0
+2026-09-22 15:36:21,829 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.0
+2026-09-22 15:36:21,829 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.0
+2026-09-22 15:36:21,829 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.0
+2026-09-22 15:36:22,226 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.1
+2026-09-22 15:36:22,226 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.1
+2026-09-22 15:36:22,226 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.1
+2026-09-22 15:36:22,226 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.1
+2026-09-22 15:36:22,737 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.5
+2026-09-22 15:36:22,737 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.5
+2026-09-22 15:36:22,737 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.5
+2026-09-22 15:36:22,737 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.5
+2026-09-22 15:36:23,106 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.7
+2026-09-22 15:36:23,106 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.7
+2026-09-22 15:36:23,106 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.7
+2026-09-22 15:36:23,106 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.7
+2026-09-22 15:36:23,596 [run_FairGAN] [INFO]  Completed FairGAN_lambda_1.0
+2026-09-22 15:36:23,596 [run_FairGAN] [INFO]  Completed FairGAN_lambda_1.0
+2026-09-22 15:36:23,596 [run_FairGAN] [INFO]  Completed FairGAN_lambda_1.0
+2026-09-22 15:36:23,596 [run_FairGAN] [INFO]  Completed FairGAN_lambda_1.0
+2026-09-22 15:36:32,454 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0
+2026-09-22 15:36:32,454 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0
+2026-09-22 15:36:32,454 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0
+2026-09-22 15:36:32,454 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0
+2026-09-22 15:36:42,619 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1
+2026-09-22 15:36:42,619 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1
+2026-09-22 15:36:42,619 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1
+2026-09-22 15:36:42,619 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1
+2026-09-22 15:36:51,764 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5
+2026-09-22 15:36:51,764 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5
+2026-09-22 15:36:51,764 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5
+2026-09-22 15:36:51,764 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5
+2026-09-22 15:37:03,084 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7
+2026-09-22 15:37:03,084 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7
+2026-09-22 15:37:03,084 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7
+2026-09-22 15:37:03,084 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7
+2026-09-22 15:37:11,707 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0
+2026-09-22 15:37:11,707 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0
+2026-09-22 15:37:11,707 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0
+2026-09-22 15:37:11,707 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0
+2026-09-22 15:38:35,246 [<module>] [INFO]  
+
+Running models for dataset version: Original
+2026-09-22 15:38:35,246 [<module>] [INFO]  
+
+Running models for dataset version: Original
+2026-09-22 15:38:35,246 [<module>] [INFO]  
+
+Running models for dataset version: Original
+2026-09-22 15:38:35,246 [<module>] [INFO]  
+
+Running models for dataset version: Original
+2026-09-22 15:38:35,249 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:38:35,249 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:38:35,249 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:38:35,249 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:38:35,254 [run_CTGAN] [ERROR]  CTGAN does not support null values in the continuous training data. Please remove all null values from your continuous training data.
+2026-09-22 15:38:35,254 [run_CTGAN] [ERROR]  CTGAN does not support null values in the continuous training data. Please remove all null values from your continuous training data.
+2026-09-22 15:38:35,254 [run_CTGAN] [ERROR]  CTGAN does not support null values in the continuous training data. Please remove all null values from your continuous training data.
+2026-09-22 15:38:35,254 [run_CTGAN] [ERROR]  CTGAN does not support null values in the continuous training data. Please remove all null values from your continuous training data.
+2026-09-22 15:38:35,256 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc With_age_cat
+2026-09-22 15:38:35,256 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc With_age_cat
+2026-09-22 15:38:35,256 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc With_age_cat
+2026-09-22 15:38:35,256 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc With_age_cat
+2026-09-22 15:38:35,258 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:38:35,258 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:38:35,258 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:38:35,258 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:38:52,648 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc Wo_age_cat
+2026-09-22 15:38:52,648 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc Wo_age_cat
+2026-09-22 15:38:52,648 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc Wo_age_cat
+2026-09-22 15:38:52,648 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc Wo_age_cat
+2026-09-22 15:38:52,651 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:38:52,651 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:38:52,651 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:38:52,651 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:38:52,654 [run_CTGAN] [ERROR]  Invalid columns found: {'age_cat'}
+2026-09-22 15:38:52,654 [run_CTGAN] [ERROR]  Invalid columns found: {'age_cat'}
+2026-09-22 15:38:52,654 [run_CTGAN] [ERROR]  Invalid columns found: {'age_cat'}
+2026-09-22 15:38:52,654 [run_CTGAN] [ERROR]  Invalid columns found: {'age_cat'}
+2026-09-22 15:55:03,833 [<module>] [INFO]  
+
+Running models for dataset version: Original
+2026-09-22 15:55:03,833 [<module>] [INFO]  
+
+Running models for dataset version: Original
+2026-09-22 15:55:03,833 [<module>] [INFO]  
+
+Running models for dataset version: Original
+2026-09-22 15:55:03,833 [<module>] [INFO]  
+
+Running models for dataset version: Original
+2026-09-22 15:55:03,833 [<module>] [INFO]  
+
+Running models for dataset version: Original
+2026-09-22 15:55:03,833 [<module>] [INFO]  
+
+Running models for dataset version: Original
+2026-09-22 15:55:03,833 [<module>] [INFO]  
+
+Running models for dataset version: Original
+2026-09-22 15:55:03,833 [<module>] [INFO]  
+
+Running models for dataset version: Original
+2026-09-22 15:55:03,838 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:55:03,838 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:55:03,838 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:55:03,838 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:55:03,838 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:55:03,838 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:55:03,838 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:55:03,838 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 15:56:33,413 [run_CTGAN] [INFO]  Completed CTGAN : Original
+2026-09-22 15:56:33,413 [run_CTGAN] [INFO]  Completed CTGAN : Original
+2026-09-22 15:56:33,413 [run_CTGAN] [INFO]  Completed CTGAN : Original
+2026-09-22 15:56:33,413 [run_CTGAN] [INFO]  Completed CTGAN : Original
+2026-09-22 15:56:33,413 [run_CTGAN] [INFO]  Completed CTGAN : Original
+2026-09-22 15:56:33,413 [run_CTGAN] [INFO]  Completed CTGAN : Original
+2026-09-22 15:56:33,413 [run_CTGAN] [INFO]  Completed CTGAN : Original
+2026-09-22 15:56:33,413 [run_CTGAN] [INFO]  Completed CTGAN : Original
+2026-09-22 15:56:33,419 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:33,419 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:33,419 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:33,419 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:33,419 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:33,419 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:33,419 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:33,419 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:33,425 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+
+
+2026-09-22 15:56:33,425 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+
+
+2026-09-22 15:56:33,425 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+
+
+2026-09-22 15:56:33,425 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+
+
+2026-09-22 15:56:33,425 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+
+
+2026-09-22 15:56:33,425 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+
+
+2026-09-22 15:56:33,425 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+
+
+2026-09-22 15:56:33,425 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+
+
+2026-09-22 15:56:42,096 [run_TVAE] [INFO]  Completed TVAE : Original
+2026-09-22 15:56:42,096 [run_TVAE] [INFO]  Completed TVAE : Original
+2026-09-22 15:56:42,096 [run_TVAE] [INFO]  Completed TVAE : Original
+2026-09-22 15:56:42,096 [run_TVAE] [INFO]  Completed TVAE : Original
+2026-09-22 15:56:42,096 [run_TVAE] [INFO]  Completed TVAE : Original
+2026-09-22 15:56:42,096 [run_TVAE] [INFO]  Completed TVAE : Original
+2026-09-22 15:56:42,096 [run_TVAE] [INFO]  Completed TVAE : Original
+2026-09-22 15:56:42,096 [run_TVAE] [INFO]  Completed TVAE : Original
+2026-09-22 15:56:42,099 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:42,099 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:42,099 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:42,099 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:42,099 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:42,099 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:42,099 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:42,099 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:42,641 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:42,641 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:42,641 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:42,641 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:42,641 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:42,641 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:42,641 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:42,641 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:43,218 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:43,218 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:43,218 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:43,218 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:43,218 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:43,218 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:43,218 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:43,218 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:43,736 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:43,736 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:43,736 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:43,736 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:43,736 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:43,736 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:43,736 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:43,736 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:44,239 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:44,239 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:44,239 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:44,239 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:44,239 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:44,239 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:44,239 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:44,239 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:44,734 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:44,734 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:44,734 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:44,734 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:44,734 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:44,734 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:44,734 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:56:44,734 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:57:56,769 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:57:56,769 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:57:56,769 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:57:56,769 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:57:56,769 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:57:56,769 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:57:56,769 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:57:56,769 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:57:56,775 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0 : Original
+2026-09-22 15:57:56,775 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0 : Original
+2026-09-22 15:57:56,775 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0 : Original
+2026-09-22 15:57:56,775 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0 : Original
+2026-09-22 15:57:56,775 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0 : Original
+2026-09-22 15:57:56,775 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0 : Original
+2026-09-22 15:57:56,775 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0 : Original
+2026-09-22 15:57:56,775 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0 : Original
+2026-09-22 15:59:11,321 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:59:11,321 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:59:11,321 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:59:11,321 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:59:11,321 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:59:11,321 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:59:11,321 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:59:11,321 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 15:59:11,327 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1 : Original
+2026-09-22 15:59:11,327 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1 : Original
+2026-09-22 15:59:11,327 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1 : Original
+2026-09-22 15:59:11,327 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1 : Original
+2026-09-22 15:59:11,327 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1 : Original
+2026-09-22 15:59:11,327 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1 : Original
+2026-09-22 15:59:11,327 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1 : Original
+2026-09-22 15:59:11,327 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1 : Original
+2026-09-22 16:00:22,511 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 16:00:22,511 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 16:00:22,511 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 16:00:22,511 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 16:00:22,511 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 16:00:22,511 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 16:00:22,511 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 16:00:22,511 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 16:00:22,516 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5 : Original
+2026-09-22 16:00:22,516 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5 : Original
+2026-09-22 16:00:22,516 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5 : Original
+2026-09-22 16:00:22,516 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5 : Original
+2026-09-22 16:00:22,516 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5 : Original
+2026-09-22 16:00:22,516 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5 : Original
+2026-09-22 16:00:22,516 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5 : Original
+2026-09-22 16:00:22,516 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5 : Original
+2026-09-22 16:01:40,393 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 16:01:40,393 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 16:01:40,393 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 16:01:40,393 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 16:01:40,393 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 16:01:40,393 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 16:01:40,393 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 16:01:40,393 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 16:01:40,400 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7 : Original
+2026-09-22 16:01:40,400 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7 : Original
+2026-09-22 16:01:40,400 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7 : Original
+2026-09-22 16:01:40,400 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7 : Original
+2026-09-22 16:01:40,400 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7 : Original
+2026-09-22 16:01:40,400 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7 : Original
+2026-09-22 16:01:40,400 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7 : Original
+2026-09-22 16:01:40,400 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7 : Original
+2026-09-22 16:02:52,178 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 16:02:52,178 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 16:02:52,178 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 16:02:52,178 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 16:02:52,178 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 16:02:52,178 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 16:02:52,178 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 16:02:52,178 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Original'
+2026-09-22 16:02:52,183 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0 : Original
+2026-09-22 16:02:52,183 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0 : Original
+2026-09-22 16:02:52,183 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0 : Original
+2026-09-22 16:02:52,183 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0 : Original
+2026-09-22 16:02:52,183 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0 : Original
+2026-09-22 16:02:52,183 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0 : Original
+2026-09-22 16:02:52,183 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0 : Original
+2026-09-22 16:02:52,183 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0 : Original
+2026-09-22 16:02:52,204 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc With_age_cat
+2026-09-22 16:02:52,204 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc With_age_cat
+2026-09-22 16:02:52,204 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc With_age_cat
+2026-09-22 16:02:52,204 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc With_age_cat
+2026-09-22 16:02:52,204 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc With_age_cat
+2026-09-22 16:02:52,204 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc With_age_cat
+2026-09-22 16:02:52,204 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc With_age_cat
+2026-09-22 16:02:52,204 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc With_age_cat
+2026-09-22 16:02:52,210 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 16:02:52,210 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 16:02:52,210 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 16:02:52,210 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 16:02:52,210 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 16:02:52,210 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 16:02:52,210 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 16:02:52,210 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 16:02:52,213 [run_CTGAN] [ERROR]  Invalid columns found: {'r_charge_desc', 'c_charge_desc'}
+2026-09-22 16:02:52,213 [run_CTGAN] [ERROR]  Invalid columns found: {'r_charge_desc', 'c_charge_desc'}
+2026-09-22 16:02:52,213 [run_CTGAN] [ERROR]  Invalid columns found: {'r_charge_desc', 'c_charge_desc'}
+2026-09-22 16:02:52,213 [run_CTGAN] [ERROR]  Invalid columns found: {'r_charge_desc', 'c_charge_desc'}
+2026-09-22 16:02:52,213 [run_CTGAN] [ERROR]  Invalid columns found: {'r_charge_desc', 'c_charge_desc'}
+2026-09-22 16:02:52,213 [run_CTGAN] [ERROR]  Invalid columns found: {'r_charge_desc', 'c_charge_desc'}
+2026-09-22 16:02:52,213 [run_CTGAN] [ERROR]  Invalid columns found: {'r_charge_desc', 'c_charge_desc'}
+2026-09-22 16:02:52,213 [run_CTGAN] [ERROR]  Invalid columns found: {'r_charge_desc', 'c_charge_desc'}
+2026-09-22 16:02:52,235 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+
+
+2026-09-22 16:02:52,235 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+
+
+2026-09-22 16:02:52,235 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+
+
+2026-09-22 16:02:52,235 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+
+
+2026-09-22 16:02:52,235 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+
+
+2026-09-22 16:02:52,235 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+
+
+2026-09-22 16:02:52,235 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+
+
+2026-09-22 16:02:52,235 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+
+
+2026-09-22 16:03:03,653 [run_TVAE] [INFO]  Completed TVAE : Wo_carge_desc With_age_cat
+2026-09-22 16:03:03,653 [run_TVAE] [INFO]  Completed TVAE : Wo_carge_desc With_age_cat
+2026-09-22 16:03:03,653 [run_TVAE] [INFO]  Completed TVAE : Wo_carge_desc With_age_cat
+2026-09-22 16:03:03,653 [run_TVAE] [INFO]  Completed TVAE : Wo_carge_desc With_age_cat
+2026-09-22 16:03:03,653 [run_TVAE] [INFO]  Completed TVAE : Wo_carge_desc With_age_cat
+2026-09-22 16:03:03,653 [run_TVAE] [INFO]  Completed TVAE : Wo_carge_desc With_age_cat
+2026-09-22 16:03:03,653 [run_TVAE] [INFO]  Completed TVAE : Wo_carge_desc With_age_cat
+2026-09-22 16:03:03,653 [run_TVAE] [INFO]  Completed TVAE : Wo_carge_desc With_age_cat
+2026-09-22 16:03:03,658 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:03,658 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:03,658 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:03,658 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:03,658 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:03,658 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:03,658 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:03,658 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:04,231 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:04,231 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:04,231 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:04,231 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:04,231 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:04,231 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:04,231 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:04,231 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:04,719 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:04,719 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:04,719 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:04,719 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:04,719 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:04,719 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:04,719 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:04,719 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:05,185 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:05,185 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:05,185 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:05,185 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:05,185 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:05,185 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:05,185 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:05,185 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:05,687 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:05,687 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:05,687 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:05,687 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:05,687 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:05,687 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:05,687 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:05,687 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:06,360 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:06,360 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:06,360 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:06,360 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:06,360 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:06,360 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:06,360 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:06,360 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:15,632 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:15,632 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:15,632 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:15,632 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:15,632 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:15,632 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:15,632 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:15,632 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:15,638 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:15,638 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:15,638 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:15,638 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:15,638 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:15,638 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:15,638 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:15,638 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:24,633 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:24,633 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:24,633 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:24,633 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:24,633 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:24,633 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:24,633 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:24,633 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:24,636 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:24,636 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:24,636 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:24,636 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:24,636 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:24,636 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:24,636 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:24,636 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:34,060 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:34,060 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:34,060 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:34,060 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:34,060 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:34,060 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:34,060 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:34,060 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:34,064 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:34,064 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:34,064 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:34,064 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:34,064 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:34,064 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:34,064 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:34,064 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:42,553 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:42,553 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:42,553 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:42,553 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:42,553 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:42,553 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:42,553 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:42,553 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:42,559 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:42,559 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:42,559 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:42,559 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:42,559 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:42,559 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:42,559 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:42,559 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:53,498 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:53,498 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:53,498 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:53,498 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:53,498 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:53,498 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:53,498 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:53,498 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc With_age_cat'
+2026-09-22 16:03:53,503 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:53,503 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:53,503 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:53,503 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:53,503 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:53,503 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:53,503 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:53,503 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0 : Wo_carge_desc With_age_cat
+2026-09-22 16:03:53,511 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc Wo_age_cat
+2026-09-22 16:03:53,511 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc Wo_age_cat
+2026-09-22 16:03:53,511 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc Wo_age_cat
+2026-09-22 16:03:53,511 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc Wo_age_cat
+2026-09-22 16:03:53,511 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc Wo_age_cat
+2026-09-22 16:03:53,511 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc Wo_age_cat
+2026-09-22 16:03:53,511 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc Wo_age_cat
+2026-09-22 16:03:53,511 [<module>] [INFO]  
+
+Running models for dataset version: Wo_carge_desc Wo_age_cat
+2026-09-22 16:03:53,516 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 16:03:53,516 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 16:03:53,516 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 16:03:53,516 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 16:03:53,516 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 16:03:53,516 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 16:03:53,516 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 16:03:53,516 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-22 16:03:53,522 [run_CTGAN] [ERROR]  Invalid columns found: {'r_charge_desc', 'age_cat', 'c_charge_desc'}
+2026-09-22 16:03:53,522 [run_CTGAN] [ERROR]  Invalid columns found: {'r_charge_desc', 'age_cat', 'c_charge_desc'}
+2026-09-22 16:03:53,522 [run_CTGAN] [ERROR]  Invalid columns found: {'r_charge_desc', 'age_cat', 'c_charge_desc'}
+2026-09-22 16:03:53,522 [run_CTGAN] [ERROR]  Invalid columns found: {'r_charge_desc', 'age_cat', 'c_charge_desc'}
+2026-09-22 16:03:53,522 [run_CTGAN] [ERROR]  Invalid columns found: {'r_charge_desc', 'age_cat', 'c_charge_desc'}
+2026-09-22 16:03:53,522 [run_CTGAN] [ERROR]  Invalid columns found: {'r_charge_desc', 'age_cat', 'c_charge_desc'}
+2026-09-22 16:03:53,522 [run_CTGAN] [ERROR]  Invalid columns found: {'r_charge_desc', 'age_cat', 'c_charge_desc'}
+2026-09-22 16:03:53,522 [run_CTGAN] [ERROR]  Invalid columns found: {'r_charge_desc', 'age_cat', 'c_charge_desc'}
+2026-09-22 16:03:53,527 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+
+
+2026-09-22 16:03:53,527 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+
+
+2026-09-22 16:03:53,527 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+
+
+2026-09-22 16:03:53,527 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+
+
+2026-09-22 16:03:53,527 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+
+
+2026-09-22 16:03:53,527 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+
+
+2026-09-22 16:03:53,527 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+
+
+2026-09-22 16:03:53,527 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+
+
+2026-09-22 16:04:00,368 [run_TVAE] [INFO]  Completed TVAE : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:00,368 [run_TVAE] [INFO]  Completed TVAE : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:00,368 [run_TVAE] [INFO]  Completed TVAE : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:00,368 [run_TVAE] [INFO]  Completed TVAE : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:00,368 [run_TVAE] [INFO]  Completed TVAE : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:00,368 [run_TVAE] [INFO]  Completed TVAE : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:00,368 [run_TVAE] [INFO]  Completed TVAE : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:00,368 [run_TVAE] [INFO]  Completed TVAE : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:00,375 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:00,375 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:00,375 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:00,375 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:00,375 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:00,375 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:00,375 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:00,375 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:00,858 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:00,858 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:00,858 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:00,858 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:00,858 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:00,858 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:00,858 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:00,858 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:01,402 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:01,402 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:01,402 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:01,402 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:01,402 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:01,402 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:01,402 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:01,402 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:01,996 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:01,996 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:01,996 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:01,996 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:01,996 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:01,996 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:01,996 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:01,996 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:02,480 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:02,480 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:02,480 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:02,480 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:02,480 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:02,480 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:02,480 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:02,480 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:02,974 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:02,974 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:02,974 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:02,974 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:02,974 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:02,974 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:02,974 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:02,974 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:11,500 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:11,500 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:11,500 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:11,500 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:11,500 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:11,500 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:11,500 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:11,500 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:11,505 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:11,505 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:11,505 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:11,505 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:11,505 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:11,505 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:11,505 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:11,505 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:19,475 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:19,475 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:19,475 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:19,475 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:19,475 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:19,475 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:19,475 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:19,475 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:19,483 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:19,483 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:19,483 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:19,483 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:19,483 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:19,483 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:19,483 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:19,483 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:27,692 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:27,692 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:27,692 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:27,692 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:27,692 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:27,692 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:27,692 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:27,692 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:27,696 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:27,696 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:27,696 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:27,696 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:27,696 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:27,696 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:27,696 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:27,696 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:36,972 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:36,972 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:36,972 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:36,972 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:36,972 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:36,972 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:36,972 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:36,972 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:36,977 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:36,977 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:36,977 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:36,977 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:36,977 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:36,977 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:36,977 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:36,977 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:45,300 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:45,300 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:45,300 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:45,300 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:45,300 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:45,300 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:45,300 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:45,300 [save_successful] [ERROR]  Cannot save file into a non-existent directory: 'data\synthetic\Wo_carge_desc Wo_age_cat'
+2026-09-22 16:04:45,305 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:45,305 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:45,305 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:45,305 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:45,305 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:45,305 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:45,305 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0 : Wo_carge_desc Wo_age_cat
+2026-09-22 16:04:45,305 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0 : Wo_carge_desc Wo_age_cat

@@ -1,0 +1,101 @@
+sex,age,age_cat,race,juv_fel_count,juv_misd_count,juv_other_count,priors_count,c_charge_degree,c_charge_desc,r_charge_degree,r_charge_desc,two_year_recid,is_recid
+Female,18.0,25 - 45,Caucasian,0.0,0.0,0.0,0.0,F,Refuse to Supply DNA Sample,(MO3),Not applicable,0.0,1
+Male,53.0,Less than 25,Caucasian,0.0,0.0,0.0,0.0,F,DUI - Enhanced,Not applicable,Felony Committing Prostitution,0.0,1
+Male,39.0,Less than 25,African-American,0.0,0.0,0.0,0.0,F,Defrauding Innkeeper,(M1),Not applicable,0.0,0
+Male,33.63891,25 - 45,African-American,0.0,0.0,0.0,0.0,F,Aggravated Battery On 65/Older,Not applicable,Not applicable,1.0,1
+Male,29.0,Less than 25,Other,0.0,0.0,0.0,2.0,M,arrest case no charge,Not applicable,Not applicable,0.0,0
+Male,21.0,Greater than 45,African-American,0.0,0.0,0.0,0.0,F,arrest case no charge,Not applicable,Not applicable,1.0,0
+Female,24.0,Greater than 45,Caucasian,0.0,0.0,0.0,0.0,M,Imperson Public Officer or Emplyee,Not applicable,Not applicable,0.0,0
+Female,96.0,Greater than 45,African-American,0.0,0.0,0.0,0.0,M,Trespass Property w/Dang Weap,(CO3),Not applicable,0.0,0
+Female,25.0,25 - 45,African-American,0.0,0.0,0.0,0.0,F,Possession Of Diazepam,(M1),Not applicable,1.0,1
+Female,42.0,Less than 25,African-American,0.0,0.0,0.0,0.0,M,False Motor Veh Insurance Card,Not applicable,"Poss3,4 Methylenedioxymethcath",0.0,0
+Female,96.0,25 - 45,African-American,0.0,0.0,0.0,0.0,M,Battery,Not applicable,Not applicable,0.0,0
+Male,39.0,Greater than 45,African-American,0.0,0.0,0.0,0.0,M,Possession of Benzylpiperazine,Not applicable,Lve/Scen/Acc/Veh/Prop/Damage,0.0,0
+Male,32.0,Less than 25,Other,0.0,0.0,0.0,0.0,F,Prostitution/Lewdness/Assign,(M2),Not applicable,0.0,0
+Female,18.0,Greater than 45,Other,0.0,0.0,0.0,1.0,M,arrest case no charge,(F2),Misuse Of 911 Or E911 System,1.0,1
+Female,30.0,Less than 25,African-American,0.0,0.0,0.0,0.0,F,Poss/Sell/Del Cocaine 1000FT Sch,Not applicable,Felony Battery (Dom Strang),0.0,0
+Male,21.0,25 - 45,African-American,0.0,0.0,0.0,3.0,F,Battery on a Person Over 65,(M1),Fail Change Address On Veh Reg,1.0,1
+Male,28.0,25 - 45,Other,0.0,0.0,0.0,0.0,F,arrest case no charge,Not applicable,Trespass After Warning,0.0,0
+Male,22.0,25 - 45,African-American,0.0,0.0,0.0,1.0,F,arrest case no charge,Not applicable,Not applicable,1.0,1
+Male,18.0,Greater than 45,African-American,0.0,0.0,0.0,2.0,F,False Bomb Report,Not applicable,Not applicable,1.0,1
+Male,43.0,Greater than 45,Other,0.0,0.0,0.0,0.0,F,Burglary Structure Assault/Batt,Not applicable,Not applicable,1.0,1
+Male,25.0,Less than 25,African-American,0.0,0.0,0.0,1.0,M,arrest case no charge,(F3),Not applicable,1.0,1
+Female,20.0,Less than 25,Other,0.0,0.0,0.0,0.0,F,arrest case no charge,(F1),Not applicable,0.0,0
+Female,96.0,25 - 45,African-American,0.0,0.0,0.0,0.0,M,Kidnapping / Domestic Violence,(M2),Not applicable,0.0,0
+Male,18.0,25 - 45,African-American,0.0,0.0,0.0,1.0,F,Giving False Crime Report,(M1),Traffick Hydrocodone   4g><14g,1.0,1
+Female,21.0,25 - 45,Other,0.0,0.0,0.0,0.0,M,Kidnapping / Domestic Violence,Not applicable,Fail Register Vehicle,0.0,0
+Male,31.0,Less than 25,Other,0.0,0.0,0.0,0.0,F,arrest case no charge,(M2),Oper Motorcycle W/O Valid DL,0.0,1
+Male,23.0,Greater than 45,Caucasian,0.0,0.0,0.0,0.0,M,Burglary Conveyance Unoccup,(M1),Not applicable,1.0,0
+Female,20.0,25 - 45,Caucasian,0.0,0.0,0.0,0.0,M,Fel Drive License Perm Revoke,(F5),Fail Register Vehicle,1.0,0
+Male,25.0,Greater than 45,African-American,0.0,0.0,0.0,1.0,F,Possession of Cocaine,Not applicable,Grand Theft Dwell Property,1.0,0
+Male,24.0,25 - 45,Caucasian,0.0,0.0,0.0,1.0,F,DOC/Cause Public Danger,(M1),Not applicable,1.0,1
+Female,54.0,25 - 45,African-American,0.0,0.0,0.0,0.0,M,Deliver Cannabis,(F1),Grand Theft In The 3Rd Degree,0.0,0
+Male,24.0,Less than 25,Other,0.0,0.0,0.0,0.0,F,Poss Of RX Without RX,(F1),Not applicable,1.0,1
+Male,36.0,Less than 25,Caucasian,0.0,0.0,0.0,0.0,M,arrest case no charge,(M2),Not applicable,0.0,0
+Male,29.0,Less than 25,Other,0.0,0.0,0.0,0.0,F,Trespass Struct/Conveyance,Not applicable,Grand Theft in the 3rd Degree,1.0,1
+Male,18.0,Greater than 45,African-American,0.0,0.0,0.0,0.0,F,Solicit Deliver Cocaine,(M1),Aggrav Child Abuse-Agg Battery,1.0,1
+Female,49.0,25 - 45,Other,0.0,0.0,0.0,0.0,F,Possess Weapon On School Prop,Not applicable,Not applicable,0.0,0
+Male,35.0,Greater than 45,Caucasian,0.0,0.0,0.0,0.0,M,DUI Level 0.15 Or Minor In Veh,(F2),Not applicable,0.0,0
+Female,35.0,Greater than 45,African-American,0.0,0.0,0.0,0.0,M,Burglary Dwelling Occupied,Not applicable,Not applicable,0.0,0
+Male,30.0,Greater than 45,Caucasian,0.0,0.0,0.0,0.0,M,Gambling/Gamb Paraphernalia,Not applicable,Not applicable,1.0,0
+Male,25.0,Greater than 45,Other,0.0,0.0,0.0,1.0,F,Child Abuse,Not applicable,Pos Cannabis W/Intent Sel/Del,1.0,1
+Male,18.0,25 - 45,African-American,0.0,0.0,0.0,0.0,F,Deliver Cannabis,Not applicable,Not applicable,1.0,0
+Male,23.0,Greater than 45,Caucasian,0.0,0.0,0.0,2.0,F,arrest case no charge,(M2),Not applicable,1.0,0
+Female,38.0,Less than 25,Caucasian,0.0,0.0,0.0,0.0,F,Traffick Oxycodone     4g><14g,(M1),Trespass Structure/Conveyance,0.0,0
+Female,24.0,25 - 45,African-American,0.0,0.0,0.0,0.0,F,Counterfeit Lic Plates/Sticker,(M2),Not applicable,0.0,0
+Male,27.0,Greater than 45,Caucasian,0.0,0.0,0.0,0.0,M,Attempted Robbery Firearm,Not applicable,Not applicable,0.0,0
+Male,44.0,Less than 25,Caucasian,0.0,0.0,0.0,0.0,F,arrest case no charge,Not applicable,Reckless Driving,0.0,1
+Male,24.0,25 - 45,African-American,0.0,0.0,0.0,0.0,M,Stalking,Not applicable,Not applicable,0.0,0
+Male,23.0,Greater than 45,Other,0.0,0.0,0.0,0.0,M,Possession Of Diazepam,Not applicable,Procure Person Und 18/Prostitu,0.0,1
+Male,20.0,Less than 25,African-American,0.0,0.0,0.0,1.0,F,arrest case no charge,Not applicable,Not applicable,1.0,0
+Female,20.0,25 - 45,Caucasian,0.0,0.0,0.0,0.0,F,Burglary Conveyance Armed,(M1),Resisting W/O Violence,1.0,0
+Male,26.0,25 - 45,African-American,0.0,0.0,0.0,0.0,F,Possession of XLR11,(M1),Grand Theft on 65 Yr or Older,1.0,1
+Male,18.0,Greater than 45,African-American,0.0,0.0,0.0,0.0,M,Refuse to Supply DNA Sample,(M1),Arson in the Second Degree,1.0,0
+Male,27.0,Less than 25,Caucasian,0.0,0.0,0.0,0.0,M,Possession Of Diazepam,(M2),Dealing in Stolen Property,1.0,0
+Male,53.0,25 - 45,Caucasian,0.0,0.0,0.0,0.0,M,Poss Of Controlled Substance,Not applicable,Not applicable,0.0,1
+Male,18.0,Greater than 45,Caucasian,0.0,0.0,0.0,0.0,F,Driving While License Revoked,Not applicable,Not applicable,1.0,1
+Female,43.0,25 - 45,Other,0.0,0.0,0.0,0.0,M,Possession of XLR11,(F1),Not applicable,0.0,0
+Female,36.0,25 - 45,African-American,0.0,0.0,0.0,0.0,M,Use Computer for Child Exploit,(F2),Possession Of Alcohol Under 21,0.0,0
+Male,30.0,25 - 45,Caucasian,0.0,0.0,0.0,0.0,M,Robbery / No Weapon,(M1),Not applicable,1.0,0
+Female,96.0,25 - 45,African-American,0.0,0.0,0.0,0.0,M,"Del 3,4 Methylenedioxymethcath",(F1),Poss F/Arm Delinq,0.0,0
+Male,26.0,25 - 45,African-American,0.0,0.0,0.0,2.0,F,arrest case no charge,(M1),DOC/Fighting/Threatening Words,0.0,1
+Female,33.0,25 - 45,Caucasian,0.0,0.0,0.0,0.0,M,Burglary Unoccupied Dwelling,(CO3),Uttering a Forged Instrument,0.0,0
+Male,28.0,25 - 45,African-American,0.0,0.0,0.0,1.0,F,arrest case no charge,(M1),Burglary Dwelling Occupied,1.0,1
+Female,41.0,Less than 25,Caucasian,0.0,0.0,0.0,0.0,F,Att Tamper w/Physical Evidence,Not applicable,Not applicable,1.0,1
+Male,18.0,Less than 25,Other,0.0,0.0,0.0,2.0,F,Misuse Of 911 Or E911 System,(M1),Not applicable,1.0,0
+Male,31.0,Less than 25,Caucasian,0.0,0.0,0.0,0.0,M,arrest case no charge,Not applicable,Not applicable,0.0,0
+Male,18.0,Greater than 45,Other,0.0,0.0,0.0,4.0,F,Computer Pornography,(M1),Not applicable,1.0,1
+Female,27.0,Less than 25,African-American,0.0,0.0,0.0,0.0,F,arrest case no charge,Not applicable,Not applicable,0.0,0
+Male,96.0,25 - 45,African-American,0.0,0.0,0.0,0.0,M,Burglary Structure Occupied,(M1),Not applicable,1.0,0
+Male,22.019966,Greater than 45,Caucasian,0.0,0.0,0.0,0.0,F,Misuse Of 911 Or E911 System,Not applicable,Trespass Struct/Convey Occupy,0.0,0
+Female,21.0,Greater than 45,Caucasian,0.0,0.0,0.0,0.0,M,arrest case no charge,(F3),Not applicable,1.0,0
+Male,96.0,25 - 45,Other,0.0,0.0,0.0,0.0,F,Principal In The First Degree,Not applicable,Fraud Use/Persnl ID Info/Deceased,1.0,1
+Male,18.0,Greater than 45,African-American,0.0,0.0,0.0,2.0,F,Violation License Restrictions,Not applicable,Not applicable,1.0,1
+Female,26.0,Greater than 45,African-American,0.0,0.0,0.0,1.0,F,Fraud Obtain Food or Lodging,(F6),Burglary Dwelling Occupied,0.0,1
+Female,22.0,25 - 45,Caucasian,0.0,0.0,0.0,0.0,M,Grand Theft In The 3Rd Degree,Not applicable,Carry Open/Uncov Bev In Pub,0.0,0
+Male,38.0,Less than 25,African-American,0.0,0.0,0.0,0.0,M,Attempted Burg/struct/unocc,Not applicable,Not applicable,0.0,0
+Female,48.0,Greater than 45,Caucasian,0.0,0.0,0.0,0.0,F,Possession Of Diazepam,(M2),Not applicable,0.0,0
+Female,96.0,Greater than 45,Caucasian,0.0,0.0,0.0,0.0,F,DUI - Enhanced,Not applicable,Not applicable,0.0,0
+Female,31.0,Less than 25,African-American,0.0,0.0,0.0,0.0,M,DOC/Cause Public Danger,Not applicable,Throw In Occupied Dwell,0.0,0
+Male,29.0,Greater than 45,Caucasian,0.0,0.0,0.0,0.0,F,Disorderly Intoxication,Not applicable,Not applicable,0.0,1
+Male,45.0,25 - 45,Other,0.0,0.0,0.0,0.0,M,Possession of LSD,(F5),"Deliver 3,4 Methylenediox",1.0,1
+Male,26.0,Greater than 45,Caucasian,0.0,0.0,0.0,0.0,M,Possession Of Diazepam,(MO3),Not applicable,1.0,1
+Male,18.0,Less than 25,Caucasian,0.0,0.0,0.0,0.0,M,Possession Of Diazepam,Not applicable,Not applicable,0.0,1
+Male,18.0,Greater than 45,African-American,0.0,0.0,0.0,0.0,F,DOC/Cause Public Danger,(M2),Racing On Highway,1.0,1
+Female,27.0,25 - 45,Caucasian,0.0,0.0,0.0,0.0,F,Felony Petit Theft,Not applicable,Possess Drug Paraphernalia,1.0,1
+Male,26.0,25 - 45,Caucasian,0.0,0.0,0.0,0.0,F,Burgl Dwel/Struct/Convey Armed,(M2),Burglary Conveyance Occupied,0.0,1
+Female,38.0,Less than 25,African-American,0.0,0.0,0.0,0.0,F,Possession Of Diazepam,Not applicable,Not applicable,0.0,1
+Male,42.0,Less than 25,African-American,0.0,0.0,0.0,0.0,F,arrest case no charge,Not applicable,Carrying Concealed Firearm,0.0,0
+Male,18.0,Less than 25,African-American,0.0,0.0,0.0,8.0,F,Burglary Conveyance Armed,Not applicable,Not applicable,1.0,1
+Male,18.0,Less than 25,Other,0.0,0.0,0.0,4.0,F,Battery,Not applicable,Trespass After Warning,1.0,1
+Female,38.0,Less than 25,Other,0.0,0.0,0.0,0.0,M,Issuing a Worthless Draft,Not applicable,Poss Anti-Shoplifting Device,0.0,0
+Male,96.0,Greater than 45,African-American,0.0,0.0,0.0,0.0,F,Del Cannabis For Consideration,Not applicable,Not applicable,0.0,0
+Male,96.0,Less than 25,African-American,0.0,0.0,0.0,0.0,M,Burglary Conveyance Armed,Not applicable,Burglary Structure Unoccup,0.0,0
+Male,50.0,25 - 45,Other,0.0,0.0,0.0,0.0,F,arrest case no charge,Not applicable,Credit Card Theft,0.0,1
+Female,32.0,25 - 45,Caucasian,0.0,0.0,0.0,0.0,F,Grand Theft on 65 Yr or Older,(MO3),Prowling/Loitering,0.0,1
+Male,21.0,Less than 25,African-American,0.0,0.0,0.0,2.0,F,D.U.I. Serious Bodily Injury,(M2),Possession Of Carisoprodol,1.0,1
+Male,22.0,Greater than 45,African-American,0.0,0.0,0.0,1.0,M,Agg Assault W/int Com Fel Dome,(F3),Not applicable,0.0,1
+Male,32.0,25 - 45,Caucasian,0.0,0.0,0.0,0.0,F,Robbery / No Weapon,(F3),Neglect Child / No Bodily Harm,1.0,1
+Male,18.0,25 - 45,African-American,0.0,0.0,0.0,2.0,F,Robbery / No Weapon,(M1),Obstruct Officer By Disguise,1.0,1
+Male,33.0,Greater than 45,African-American,0.0,0.0,0.0,0.0,F,arrest case no charge,(M1),Not applicable,0.0,0
+Female,40.0,Less than 25,African-American,0.0,0.0,0.0,0.0,M,Forging Bank Bills/Promis Note,(M1),Deliver Cocaine,0.0,0

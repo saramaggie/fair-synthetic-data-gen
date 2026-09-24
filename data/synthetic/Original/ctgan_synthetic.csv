@@ -1,0 +1,101 @@
+sex,age,age_cat,race,juv_fel_count,juv_misd_count,juv_other_count,priors_count,c_charge_degree,c_charge_desc,r_charge_degree,r_charge_desc,two_year_recid,is_recid
+Female,28,25 - 45,African-American,0,1,0,0,F,Possession of Cocaine,Not applicable,Aggrav Battery w/Deadly Weapon,1,0
+Male,48,Less than 25,Other,0,0,0,0,M,DUI Property Damage/Injury,(F1),Deliver Cocaine 1000FT School,1,0
+Male,30,Less than 25,African-American,0,0,0,0,M,arrest case no charge,(F3),Not applicable,1,1
+Male,25,25 - 45,Other,0,0,0,0,F,Grand Theft in the 1st Degree,(M1),Disorderly Conduct,1,1
+Male,42,25 - 45,African-American,0,0,0,0,F,Battery,Not applicable,Temporary Tag Violation,1,0
+Male,29,25 - 45,African-American,0,0,0,0,F,Resist Officer w/Violence,(M1),Not applicable,1,1
+Male,19,Less than 25,African-American,0,0,0,2,M,Battery,Not applicable,Not applicable,0,0
+Male,24,Greater than 45,Other,0,0,0,3,M,arrest case no charge,Not applicable,Disorderly Conduct,1,0
+Male,26,25 - 45,Other,0,0,0,4,F,Felony Battery w/Prior Convict,(F3),Burglary Unoccupied Dwelling,1,1
+Male,20,25 - 45,Other,0,0,0,3,M,Felony Petit Theft,(M2),Possess Cannabis/20 Grams Or Less,1,0
+Male,25,25 - 45,African-American,0,0,0,2,F,Battery,Not applicable,Not applicable,0,1
+Female,22,Greater than 45,Caucasian,0,0,0,-1,M,Battery,(M1),Susp Drivers Lic 1st Offense,0,0
+Male,18,Greater than 45,Caucasian,0,0,0,2,M,Possession Of Alprazolam,Not applicable,Not applicable,1,0
+Male,17,Less than 25,African-American,0,0,0,-1,F,Battery,Not applicable,Possess Cannabis/20 Grams Or Less,0,1
+Male,25,25 - 45,Caucasian,0,0,0,1,M,arrest case no charge,(M2),Possess Cannabis/20 Grams Or Less,0,0
+Male,20,Less than 25,Caucasian,0,0,0,3,M,Possession of Cocaine,Not applicable,Grand Theft in the 3rd Degree,1,1
+Female,24,25 - 45,Caucasian,0,0,0,3,M,Aggrav Battery w/Deadly Weapon,Not applicable,Not applicable,1,0
+Male,24,Greater than 45,African-American,0,0,0,3,F,Burglary Conveyance Unoccup,Not applicable,Unlaw Use False Name/Identity,0,0
+Male,28,Less than 25,Caucasian,0,0,0,6,F,Possession of Cocaine,(MO3),Burglary Dwelling Armed,0,1
+Male,21,25 - 45,African-American,0,0,0,0,F,Possession of Cocaine,Not applicable,Not applicable,1,1
+Male,17,Less than 25,African-American,0,0,0,3,M,arrest case no charge,Not applicable,Petit Theft,0,1
+Male,19,Greater than 45,Caucasian,0,0,0,-1,F,Resist/Obstruct W/O Violence,Not applicable,Not applicable,1,0
+Female,24,25 - 45,Caucasian,0,0,0,0,F,Felony Battery w/Prior Convict,(MO3),Unlaw Use False Name/Identity,1,0
+Male,23,25 - 45,Caucasian,0,0,0,5,F,Battery,(M1),Not applicable,1,1
+Male,18,Less than 25,Caucasian,0,0,0,2,F,Resist/Obstruct W/O Violence,Not applicable,Not applicable,0,1
+Male,28,Greater than 45,African-American,0,0,0,3,F,Felony Battery (Dom Strang),(M2),Resist/Obstruct W/O Violence,0,1
+Male,24,25 - 45,Caucasian,0,0,0,7,M,arrest case no charge,Not applicable,Operating W/O Valid License,1,1
+Male,25,25 - 45,African-American,0,0,0,-1,M,arrest case no charge,Not applicable,Resist/Obstruct W/O Violence,1,1
+Male,19,25 - 45,Caucasian,0,0,0,0,M,Possession of Cocaine,(MO3),Not applicable,1,0
+Male,20,25 - 45,Other,0,0,1,4,F,Cruelty to Animals,Not applicable,Resist/Obstruct W/O Violence,0,0
+Female,24,25 - 45,Caucasian,0,0,0,-1,M,Battery,(M1),Not applicable,0,0
+Female,35,Greater than 45,Caucasian,0,0,4,4,M,Possession of Cocaine,(CO3),Burglary Conveyance Unoccup,0,0
+Female,27,25 - 45,African-American,1,0,0,2,M,Deliver Alprazolam,(F5),Robbery,0,0
+Male,17,Less than 25,African-American,0,0,0,2,F,Possession of Cocaine,(M1),Not applicable,1,1
+Female,27,Greater than 45,Caucasian,0,0,0,2,M,D.U.I. Serious Bodily Injury,(F3),Driving While License Revoked,1,1
+Male,19,Less than 25,African-American,0,0,0,4,M,arrest case no charge,Not applicable,Not applicable,0,0
+Female,27,25 - 45,African-American,0,0,1,2,M,Resist Officer w/Violence,(M1),Petit Theft $100- $300,0,0
+Male,20,Less than 25,African-American,0,0,0,3,F,Possession of Cocaine,(M2),Possess Cannabis/20 Grams Or Less,1,1
+Male,21,25 - 45,Caucasian,0,0,0,0,M,Possession of Cocaine,(M1),Not applicable,1,1
+Male,19,Greater than 45,Caucasian,0,0,0,3,F,Possession of Cocaine,Not applicable,Not applicable,1,1
+Male,21,25 - 45,African-American,0,0,0,-1,M,DUI Property Damage/Injury,Not applicable,Not applicable,1,0
+Male,21,25 - 45,African-American,0,0,0,6,F,Felony Battery (Dom Strang),(M2),Not applicable,0,1
+Male,33,Greater than 45,Caucasian,0,2,0,2,F,Cruelty Toward Child,(M1),Viol Prot Injunc Repeat Viol,1,0
+Female,27,Greater than 45,Other,0,0,0,5,F,Agg Battery Grt/Bod/Harm,(M2),,0,1
+Male,39,25 - 45,African-American,0,0,0,3,M,arrest case no charge,Not applicable,,0,1
+Male,33,Greater than 45,African-American,0,0,0,3,F,arrest case no charge,Not applicable,Petit Theft $100- $300,0,1
+Male,21,25 - 45,African-American,0,0,0,5,M,Possession of Cocaine,(M2),Battery,1,0
+Male,26,Less than 25,Other,0,0,0,2,M,Petit Theft,Not applicable,Petit Theft,0,0
+Male,48,25 - 45,Caucasian,0,0,0,2,F,Poss Meth/Diox/Meth/Amp (MDMA),Not applicable,Battery,0,1
+Male,33,Greater than 45,Other,0,0,1,3,M,Resist Officer w/Violence,(M2),Not applicable,0,0
+Female,21,Greater than 45,Caucasian,0,0,0,-1,M,Fraud Obtain Food or Lodging,(F2),Petit Theft $100- $300,0,0
+Male,20,Greater than 45,African-American,0,0,0,9,F,Felony Driving While Lic Suspd,(M1),Not applicable,0,0
+Male,18,Less than 25,African-American,0,0,0,13,M,Possession of Cocaine,Not applicable,Not applicable,1,1
+Male,44,Greater than 45,Caucasian,0,0,0,3,M,arrest case no charge,(F3),Possession of Cocaine,1,0
+Male,42,Greater than 45,Caucasian,0,0,0,2,F,Possession Of Alprazolam,(M2),Burglary Unoccupied Dwelling,1,1
+Male,32,Greater than 45,Caucasian,0,0,0,3,F,arrest case no charge,(M2),Not applicable,0,0
+Female,24,25 - 45,Caucasian,0,0,0,-1,F,Possession of Cocaine,Not applicable,Not applicable,1,0
+Male,24,Less than 25,Caucasian,0,0,0,3,M,arrest case no charge,(M1),Possession of Cocaine,0,0
+Male,29,25 - 45,Caucasian,0,0,0,-1,F,Possession of Cocaine,(F3),Possession of Cannabis,0,1
+Female,22,Greater than 45,African-American,0,0,0,3,M,Burglary Unoccupied Dwelling,(F3),Susp Drivers Lic 1st Offense,1,0
+Female,40,Less than 25,African-American,0,0,0,3,F,Aggravated Battery / Pregnant,(F2),Not applicable,1,1
+Male,28,25 - 45,Caucasian,0,0,0,5,F,Battery,Not applicable,Not applicable,1,0
+Male,38,Greater than 45,African-American,0,0,0,0,F,arrest case no charge,(M2),Not applicable,0,0
+Female,20,25 - 45,Caucasian,0,0,4,5,M,Disorderly Conduct,(M2),Poss Pyrrolidinovalerophenone,0,1
+Male,29,Greater than 45,Other,0,0,0,4,F,Violation Of Boater Safety Id,(MO3),Sex Offender Fail Comply W/Law,1,1
+Male,23,25 - 45,African-American,0,0,0,10,F,Operating W/O Valid License,(F3),Operating W/O Valid License,1,0
+Male,28,25 - 45,Other,1,1,0,-1,M,Trespass Structure w/Dang Weap,(F7),Resist/Obstruct W/O Violence,1,0
+Female,21,Less than 25,Caucasian,0,0,0,5,F,arrest case no charge,(F3),Possession of Cocaine,1,0
+Male,28,25 - 45,Other,0,0,0,-1,F,Possession of Cocaine,Not applicable,Battery,1,0
+Male,21,25 - 45,Caucasian,0,0,0,-1,F,Aggravated Battery / Pregnant,Not applicable,Battery,0,0
+Male,29,Greater than 45,African-American,0,0,0,0,F,Battery,(M1),Not applicable,0,0
+Male,26,25 - 45,Caucasian,0,0,1,4,M,Possess Cannabis/20 Grams Or Less,Not applicable,,0,0
+Male,20,25 - 45,Caucasian,0,0,0,-1,F,Disorderly Conduct,Not applicable,Petit Theft,1,0
+Male,21,25 - 45,African-American,0,0,0,2,F,arrest case no charge,(M2),Not applicable,0,1
+Male,26,Greater than 45,Caucasian,0,0,0,0,M,arrest case no charge,(M2),Operating W/O Valid License,1,0
+Male,28,Greater than 45,Caucasian,0,0,0,4,M,Possess Tobacco Product Under 18,Not applicable,Extradition/Defendants,1,0
+Male,18,25 - 45,African-American,0,0,0,2,F,arrest case no charge,Not applicable,Petit Theft $100- $300,1,1
+Male,18,25 - 45,Caucasian,0,0,0,-1,M,Possession of Cocaine,Not applicable,Not applicable,0,0
+Male,18,Greater than 45,Caucasian,0,0,0,0,M,Operating W/O Valid License,(F2),Operating W/O Valid License,0,1
+Male,23,25 - 45,African-American,0,0,0,0,M,Burglary Unoccupied Dwelling,(F3),Not applicable,1,1
+Male,26,25 - 45,African-American,0,0,0,0,F,Felony Battery w/Prior Convict,(M1),Possess Cannabis/20 Grams Or Less,1,0
+Male,30,Greater than 45,Caucasian,0,0,1,0,M,Viol Injunct Domestic Violence,(F2),Battery,0,1
+Male,22,25 - 45,African-American,0,0,0,1,M,arrest case no charge,Not applicable,Not applicable,0,1
+Male,17,25 - 45,African-American,0,0,0,0,M,Poss Pyrrolidinovalerophenone,Not applicable,Not applicable,1,1
+Female,18,Less than 25,Caucasian,0,0,0,2,M,Possession of Cannabis,Not applicable,Not applicable,1,0
+Male,31,25 - 45,African-American,0,0,0,2,F,Possession of Cocaine,Not applicable,Not applicable,1,1
+Female,34,25 - 45,African-American,0,0,0,3,F,Driving While License Revoked,(M1),Grand Theft in the 3rd Degree,1,1
+Female,19,25 - 45,African-American,0,0,0,-1,F,arrest case no charge,(M2),Lve/Scen/Acc/Veh/Prop/Damage,0,0
+Male,21,Greater than 45,Caucasian,0,0,0,-1,F,arrest case no charge,(M2),Resist/Obstruct W/O Violence,1,1
+Male,25,25 - 45,Other,0,0,0,-1,F,Battery,(F3),Not applicable,0,0
+Male,21,Less than 25,African-American,0,0,0,2,M,Battery,Not applicable,Not applicable,1,1
+Male,17,Less than 25,Other,0,0,0,2,F,Grand Theft in the 3rd Degree,Not applicable,Not applicable,0,0
+Male,21,Greater than 45,African-American,0,0,0,3,F,Possession of Cocaine,Not applicable,Possess Cannabis/20 Grams Or Less,1,1
+Male,25,25 - 45,Caucasian,0,0,0,-1,F,Felony Driving While Lic Suspd,Not applicable,Not applicable,0,1
+Male,19,Less than 25,African-American,0,0,0,-1,M,Burglary Conveyance Unoccup,(F3),Not applicable,1,1
+Male,28,25 - 45,Caucasian,0,0,0,7,F,arrest case no charge,Not applicable,Not applicable,1,1
+Female,19,25 - 45,Other,0,0,0,-1,F,Possession of Cocaine,(M2),Not applicable,0,0
+Male,20,Greater than 45,African-American,0,0,0,-1,F,Resist Officer w/Violence,Not applicable,Not applicable,0,0
+Male,22,Greater than 45,African-American,0,0,0,-2,F,arrest case no charge,Not applicable,Not applicable,0,0
+Male,21,25 - 45,Caucasian,0,0,0,-1,F,Driving While License Revoked,Not applicable,Not applicable,1,0

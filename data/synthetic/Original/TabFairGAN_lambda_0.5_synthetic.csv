@@ -1,0 +1,101 @@
+sex,age,age_cat,race,juv_fel_count,juv_misd_count,juv_other_count,priors_count,c_charge_degree,c_charge_desc,r_charge_degree,r_charge_desc,two_year_recid,is_recid
+Male,37.0,25 - 45,African-American,0.0,0.0,0.0,0.0,F,arrest case no charge,Not applicable,Not applicable,0.0,0
+Male,38.0,Greater than 45,Caucasian,0.0,0.0,0.0,0.0,M,Simulation of Legal Process,Not applicable,Not applicable,0.0,1
+Male,36.0,25 - 45,Caucasian,0.0,0.0,0.0,3.0,M,Tampering with a Victim,Not applicable,DOC/Fighting/Threatening Words,0.0,0
+Male,43.0,Less than 25,Caucasian,0.0,0.0,0.0,1.0,M,Poss of Firearm by Convic Felo,(F2),Not applicable,0.0,1
+Male,31.0,Greater than 45,African-American,0.0,0.0,0.0,5.0,M,arrest case no charge,(M1),Not applicable,0.0,0
+Male,49.0,25 - 45,African-American,0.0,0.0,0.0,0.0,F,Burglary Structure Occupied,Not applicable,Fraud Obtain Driver License,0.0,1
+Male,36.0,Greater than 45,Caucasian,0.0,0.0,0.0,1.0,F,Battery on Law Enforc Officer,Not applicable,False Ownership Info/Pawn Item,1.0,1
+Male,26.0,Less than 25,Caucasian,0.0,0.0,0.0,5.0,F,Robbery Sudd Snatch No Weapon,(M1),Not applicable,1.0,1
+Female,52.593502,Greater than 45,African-American,0.0,0.0,0.0,8.0,F,Assault,(M1),Use Fraud OBT Rcpt/False Rcpt,1.0,0
+Male,25.0,Less than 25,African-American,0.0,0.0,0.0,9.0,M,Solicit Purchase Cocaine,(F3),Unlaw LicTag/Sticker Attach,1.0,0
+Male,36.0,25 - 45,Caucasian,0.0,0.0,0.0,38.0,F,Poss Contr Subst W/o Prescript,(F3),Not applicable,1.0,1
+Male,18.0,25 - 45,Caucasian,0.0,0.0,0.0,1.0,F,Grand Theft (Motor Vehicle),(M2),Poss Of Controlled Substance,1.0,1
+Male,30.0,25 - 45,African-American,0.0,0.0,0.0,12.0,M,arrest case no charge,(M1),Not applicable,1.0,0
+Female,54.0,25 - 45,Caucasian,0.0,0.0,0.0,0.0,M,arrest case no charge,(M1),Use Scanning Device to Defraud,0.0,0
+Male,18.0,25 - 45,Caucasian,0.0,0.0,0.0,1.0,F,Poss/pur/sell/deliver Cocaine,Not applicable,Not applicable,1.0,1
+Male,37.0,Less than 25,African-American,0.0,0.0,0.0,1.0,M,Leaving the Scene of Accident,(MO3),Not applicable,0.0,1
+Male,56.0,25 - 45,Caucasian,0.0,0.0,0.0,7.0,F,Possession Of Phentermine,(F3),Battery,1.0,1
+Male,39.0,25 - 45,African-American,0.0,0.0,0.0,38.0,M,arrest case no charge,Not applicable,Possess Drug Paraphernalia,1.0,1
+Male,30.0,Greater than 45,African-American,0.0,0.0,0.0,2.0,F,arrest case no charge,(F7),Not applicable,0.0,1
+Male,41.0,25 - 45,African-American,0.0,0.0,0.0,7.0,F,Possession of Methadone,(M2),Use Lost Or Stolen Credit Card,1.0,1
+Male,46.0,Greater than 45,African-American,0.0,0.0,0.0,1.0,F,Poss Wep Conv Felon,(M2),Not applicable,1.0,1
+Male,55.0,Less than 25,African-American,0.0,0.0,0.0,38.0,F,arrest case no charge,Not applicable,Not applicable,1.0,1
+Female,34.0,25 - 45,Caucasian,0.0,0.0,0.0,0.0,F,Burglary Dwelling Armed,(M2),Not applicable,0.0,1
+Female,57.0,Greater than 45,African-American,0.0,0.0,0.0,2.0,M,Escape,Not applicable,Possess Drug Paraphernalia,0.0,1
+Male,47.0,25 - 45,Caucasian,0.0,0.0,0.0,0.0,F,Deliver Cocaine 1000FT School,(M2),Not applicable,0.0,0
+Male,28.0,25 - 45,African-American,0.0,0.0,0.0,15.536983,F,Poss Anti-Shoplifting Device,(M2),Not applicable,1.0,0
+Male,29.0,25 - 45,African-American,0.0,0.0,0.0,2.0,F,Robbery Sudd Snatch No Weapon,(CO3),Obstuct By Solicitation,1.0,1
+Male,25.0,25 - 45,Other,0.0,0.0,0.0,0.0,M,Exploit Elderly Person 20-100K,Not applicable,Not applicable,1.0,1
+Male,27.0,Greater than 45,African-American,0.0,0.0,0.0,4.0,F,Possession of Cocaine,Not applicable,Deliver Cannabis,0.0,0
+Male,26.0,25 - 45,African-American,0.0,0.0,0.0,3.0,F,Refuse Submit Blood/Breath Test,Not applicable,Not applicable,1.0,1
+Male,29.0,Less than 25,African-American,0.0,0.0,0.0,0.0,M,Abuse Without Great Harm,Not applicable,Tresspass in Struct/Convey Occupy,0.0,1
+Male,40.0,25 - 45,African-American,0.0,0.0,0.0,38.0,F,Battery on a Person Over 65,(M2),,1.0,1
+Male,34.0,25 - 45,African-American,0.0,0.0,0.0,3.0,M,Fail To Secure Load,(M2),Not applicable,0.0,0
+Male,40.0,Less than 25,African-American,0.0,0.0,0.0,8.0,F,Poss Pyrrolidinobutiophenone,(F3),Open Carrying Of Weapon,1.0,1
+Female,36.0,25 - 45,African-American,0.0,0.0,0.0,0.0,F,Battery On A Person Over 65,Not applicable,Not applicable,0.0,0
+Male,50.0,25 - 45,African-American,0.0,0.0,0.0,2.0,M,Driving License Suspended,(F3),Fraud Use/Persnl ID Info/Deceased,0.0,1
+Female,18.0,25 - 45,Caucasian,0.0,0.0,0.0,0.0,F,arrest case no charge,Not applicable,Burglary Conveyance Occupied,0.0,0
+Male,36.0,Less than 25,Caucasian,0.0,0.0,0.0,1.0,M,arrest case no charge,(M2),Not applicable,1.0,0
+Male,28.0,25 - 45,African-American,0.0,0.0,0.0,1.0,F,Solicit Purchase Cocaine,(CO3),Drinking Alch Beverage In Open,0.0,0
+Male,20.0,Less than 25,Caucasian,0.0,0.0,0.0,1.0,M,Possess Weapon On School Prop,Not applicable,Not applicable,0.0,0
+Male,25.0,25 - 45,African-American,0.0,0.0,0.0,1.0,F,Use Scanning Device to Defraud,(M2),Deliver Cannabis,0.0,0
+Male,24.0,Less than 25,Caucasian,0.0,0.0,0.0,0.0,F,Possession of Oxycodone,Not applicable,Not applicable,0.0,0
+Male,31.0,25 - 45,Caucasian,0.0,0.0,0.0,38.0,F,arrest case no charge,(M2),False Reports,1.0,1
+Female,24.0,Greater than 45,Other,0.0,0.0,0.0,0.0,F,Battery,(M1),Not applicable,0.0,0
+Male,26.0,25 - 45,African-American,0.0,0.0,0.0,1.0,M,"Poss3,4 Methylenedioxymethcath",(M1),Aggravated Battery On 65/Older,0.0,1
+Female,44.0,25 - 45,African-American,0.0,0.0,0.0,5.0,F,Neglect Child / Bodily Harm,(M2),Not applicable,1.0,0
+Female,43.0,25 - 45,African-American,0.0,0.0,0.0,2.0,F,Poss Wep Conv Felon,Not applicable,Uttering Forged Bills,0.0,0
+Male,29.0,25 - 45,Caucasian,0.0,0.0,0.0,2.0,F,Falsely Impersonating Officer,(M1),Not applicable,1.0,0
+Male,30.0,25 - 45,African-American,0.0,0.0,0.0,0.0,F,arrest case no charge,(F3),Possession Of Carisoprodol,1.0,1
+Male,36.0,Greater than 45,Caucasian,0.0,0.0,0.0,3.0,M,Offer Agree Secure For Lewd Act,(M2),Not applicable,0.0,0
+Male,43.0,25 - 45,Caucasian,0.0,0.0,0.0,3.0,F,Flee/Elude LEO-Agg Flee Unsafe,(F3),Not applicable,0.0,0
+Female,38.0,25 - 45,Caucasian,0.0,0.0,0.0,1.0,M,Poss of Methylethcathinone,Not applicable,Not applicable,0.0,0
+Male,26.0,25 - 45,Caucasian,0.0,0.0,0.0,1.0,M,Accessory After the Fact,(M2),Not applicable,1.0,1
+Male,53.0,Greater than 45,African-American,0.0,0.0,0.0,38.0,M,Possession of Cocaine,(M1),Not applicable,1.0,1
+Male,19.05067,25 - 45,Other,0.0,0.0,0.0,7.0,F,Purchasing Of Alprazolam,(M1),Not applicable,0.0,1
+Male,25.0,Greater than 45,Caucasian,0.0,0.0,0.0,1.0,F,Lewdness Violation,Not applicable,Throw Deadly Missile Into Veh,1.0,0
+Male,77.78242,25 - 45,Caucasian,0.0,0.0,0.0,3.0,M,Possession Of Anabolic Steroid,(M1),Not applicable,1.0,1
+Female,32.0,25 - 45,African-American,0.0,0.0,0.0,0.0,M,Possession Firearm School Prop,Not applicable,Giving False Crime Report,0.0,0
+Male,96.0,25 - 45,Caucasian,0.0,0.0,0.0,1.0,M,Robbery Sudd Snatch No Weapon,(MO3),Traffick Oxycodone 14-25 grams,0.0,1
+Male,59.0,25 - 45,Caucasian,0.0,0.0,0.0,0.0,F,Crim Use of Personal ID Info,(M1),Drinking Alch Beverage In Open,0.0,0
+Male,28.0,25 - 45,Caucasian,0.0,0.0,0.0,1.9670935,F,Manage Busn W/O City Occup Lic,Not applicable,Not applicable,0.0,0
+Female,23.0,25 - 45,Caucasian,0.0,0.0,0.0,0.0,F,Refuse Submit Blood/Breath Test,(F3),Not applicable,0.0,1
+Female,40.0,25 - 45,African-American,0.0,0.0,0.0,1.0,F,arrest case no charge,(F5),"Poss3,4 Methylenedioxymethcath",0.0,0
+Male,27.0,25 - 45,Caucasian,0.0,0.0,0.0,0.0,F,arrest case no charge,(M1),Not applicable,0.0,0
+Male,38.0,Greater than 45,African-American,0.0,0.0,0.0,0.0,F,arrest case no charge,Not applicable,Attempt Crim Use of Personal ID Info,0.0,0
+Male,26.0,Greater than 45,Other,0.0,0.0,0.0,5.0,M,arrest case no charge,Not applicable,Mandatory Susp Possess Alcohol,1.0,1
+Female,56.0,Greater than 45,African-American,0.0,0.0,0.0,2.0,M,Arson II (Vehicle),Not applicable,Not applicable,1.0,1
+Male,28.0,Greater than 45,African-American,0.0,0.0,0.0,38.0,F,Shoot Into Vehicle,Not applicable,Not applicable,1.0,1
+Male,34.0,Less than 25,Caucasian,0.0,0.0,0.0,9.0,M,Exploit Elderly Person 20-100K,Not applicable,Obstruct Fire Equipment,1.0,1
+Male,35.0,Greater than 45,African-American,0.0,0.0,0.0,0.0,F,Possession of Cocaine,Not applicable,Procure For Prostitution,0.0,0
+Female,39.0,Greater than 45,Other,0.0,0.0,0.0,0.0,F,arrest case no charge,Not applicable,Culpable Negligence,0.0,0
+Male,51.0,25 - 45,African-American,0.0,0.0,0.0,1.0,F,Poss of Firearm by Convic Felo,(M1),Poss Similitude of Drivers Lic,1.0,1
+Female,24.0,25 - 45,African-American,0.0,0.0,0.0,5.0,M,Posses/Disply Susp/Revk/Frd DL,Not applicable,Not applicable,0.0,1
+Male,23.0,25 - 45,African-American,0.0,0.0,0.0,2.0,F,Manage Busn W/O City Occup Lic,Not applicable,Grand Theft Firearm,1.0,1
+Male,27.0,Less than 25,Other,0.0,0.0,0.0,0.0,F,arrest case no charge,Not applicable,Not applicable,0.0,0
+Female,28.0,25 - 45,Caucasian,0.0,0.0,0.0,2.0,F,Poss Cocaine/Intent To Del/Sel,Not applicable,Not applicable,0.0,0
+Male,33.0,25 - 45,African-American,0.0,0.0,0.0,1.0,M,Child Abuse,Not applicable,Stalking,0.0,0
+Male,32.0,25 - 45,African-American,0.0,0.0,0.0,12.0,M,Possession Of Methamphetamine,(M1),Aggravated Assault W/dead Weap,1.0,1
+Male,66.192604,25 - 45,African-American,0.0,0.0,0.0,9.0,M,Aggravated Assault W/Dead Weap,Not applicable,Not applicable,0.0,0
+Male,23.0,Greater than 45,Other,0.0,0.0,0.0,0.0,M,Grand Theft of the 2nd Degree,Not applicable,Transport Prostitution,0.0,0
+Male,35.0,25 - 45,African-American,0.0,0.0,0.0,1.0,F,Robbery Sudd Snatch No Weapon,(M1),Not applicable,0.0,0
+Female,39.0,25 - 45,African-American,0.0,0.0,0.0,0.0,F,arrest case no charge,(M2),Not applicable,0.0,0
+Male,41.0,Less than 25,Caucasian,0.0,0.0,0.0,0.0,M,Possession of Cocaine,Not applicable,,0.0,0
+Male,30.0,25 - 45,African-American,0.0,0.0,0.0,0.0,F,Poss Oxycodone W/Int/Sell/Del,(M1),Poss Of RX Without RX,0.0,0
+Female,33.0,Less than 25,Caucasian,0.0,0.0,0.0,0.0,F,arrest case no charge,Not applicable,Not applicable,0.0,0
+Male,23.0,Less than 25,African-American,0.0,0.0,0.0,3.0,F,Possession of Cocaine,(F3),Fail Register Vehicle,1.0,0
+Male,44.0,25 - 45,African-American,0.0,0.0,0.0,1.0,F,arrest case no charge,(M2),Not applicable,1.0,1
+Male,26.0,25 - 45,Caucasian,0.0,0.0,0.0,0.0,M,Att Tamper w/Physical Evidence,Not applicable,Not applicable,0.0,0
+Female,39.0,25 - 45,Caucasian,0.0,0.0,0.0,3.0,M,Disorderly Conduct,Not applicable,Not applicable,0.0,1
+Male,29.0,25 - 45,Other,0.0,0.0,0.0,38.0,F,Use Computer for Child Exploit,(M2),Deliver Cocaine 1000FT Park,1.0,1
+Male,38.0,25 - 45,African-American,0.0,0.0,0.0,2.0,F,arrest case no charge,(M2),Deliver Cannabis,1.0,1
+Male,35.0,25 - 45,Caucasian,0.0,0.0,0.0,1.0,M,Poss/Sell/Deliver Clonazepam,(M1),Not applicable,0.0,0
+Male,24.0,25 - 45,Caucasian,0.0,0.0,0.0,5.0,F,Possession of Cocaine,(M1),Robbery,1.0,1
+Male,25.0,25 - 45,Other,0.0,0.0,0.0,1.0,F,arrest case no charge,(M1),Not applicable,0.0,0
+Female,32.0,Less than 25,African-American,0.0,0.0,0.0,0.0,M,Petit Theft $100- $300,(M2),Not applicable,0.0,0
+Male,29.0,25 - 45,African-American,0.0,0.0,0.0,1.0,M,Felony Petit Theft,(M2),Drivg While Lic Suspd/Revk/Can,1.0,1
+Male,24.0,25 - 45,Caucasian,0.0,0.0,0.0,3.0,F,arrest case no charge,Not applicable,Not applicable,1.0,1
+Male,30.0,25 - 45,Caucasian,0.0,0.0,0.0,4.0,F,Throw Deadly Missile Into Veh,(F3),Drink Near Licensed Establishm,1.0,1
+Male,25.0,Less than 25,African-American,0.0,0.0,0.0,1.0,F,Battery,Not applicable,Not applicable,0.0,1
+Male,38.0,Greater than 45,African-American,0.0,0.0,0.0,1.9876167,F,arrest case no charge,Not applicable,Cruelty To Animals,0.0,1

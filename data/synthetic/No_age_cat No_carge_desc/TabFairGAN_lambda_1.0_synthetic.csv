@@ -1,0 +1,101 @@
+sex,age,race,juv_fel_count,juv_misd_count,juv_other_count,priors_count,c_charge_degree,r_charge_degree,two_year_recid,is_recid
+Male,28.0,Caucasian,0.0,0.0,0.0,2.0,F,(F1),0.0,1
+Male,41.0,African-American,0.0,0.0,0.0,1.0,F,(F3),1.0,1
+Male,33.0,African-American,0.0,0.0,0.0,1.0,F,Not applicable,0.0,1
+Female,24.0,Other,0.0,0.0,0.0,1.0,F,(CO3),0.0,0
+Female,48.0,Other,0.0,0.0,0.0,5.0,M,(M2),1.0,0
+Male,27.0,Other,0.0,0.0,0.0,8.0,F,(F1),1.0,1
+Female,96.0,African-American,0.0,0.0,0.0,38.0,F,(M1),1.0,0
+Female,32.0,Caucasian,0.0,0.0,0.0,2.0,M,Not applicable,1.0,1
+Male,39.0,Other,0.0,0.0,0.0,2.0,F,(M1),1.0,0
+Male,31.0,African-American,0.0,0.0,0.0,1.0,F,(M2),0.0,1
+Female,34.0,Caucasian,0.0,0.0,0.0,1.0,F,(F3),1.0,0
+Male,25.0,Other,0.0,0.0,0.0,3.0,F,(M1),0.0,1
+Male,32.0,Other,0.0,0.0,0.0,3.0,M,(F3),0.0,0
+Female,28.0,African-American,0.0,0.0,0.0,1.0,F,(M1),1.0,0
+Male,32.0,Caucasian,0.0,0.0,0.0,11.0,F,(F6),0.0,1
+Male,49.0,Caucasian,0.0,0.0,0.0,38.0,F,(F1),0.0,0
+Female,29.0,African-American,0.0,0.0,0.0,0.0,M,(CO3),1.0,1
+Female,25.0,Caucasian,0.0,0.0,0.0,9.0,F,(F3),0.0,1
+Male,38.0,African-American,0.0,0.0,0.0,1.0,F,(M1),0.0,1
+Male,35.0,African-American,0.0,0.0,0.0,0.0,F,(M1),1.0,0
+Female,26.0,African-American,0.0,0.0,0.0,0.0,F,(F5),1.0,0
+Male,30.509865,African-American,0.0,0.0,0.0,6.0,M,Not applicable,0.0,0
+Male,43.0,Caucasian,0.0,0.0,0.0,1.0,F,Not applicable,1.0,1
+Male,24.0,African-American,0.0,0.0,0.0,3.0,M,(M1),1.0,0
+Male,51.0,African-American,0.0,0.0,0.0,0.0,F,(F5),1.0,0
+Male,39.0,African-American,0.0,0.0,0.0,6.0,M,(M2),0.0,1
+Male,28.0,African-American,0.0,0.0,0.0,7.0,F,Not applicable,0.0,0
+Male,96.0,African-American,0.0,0.0,0.0,1.0,F,(CO3),0.0,1
+Male,96.0,African-American,0.0,0.0,0.0,3.0,F,(M2),1.0,1
+Male,31.0,African-American,0.0,0.0,0.0,3.0,F,Not applicable,1.0,0
+Male,33.0,Caucasian,0.0,0.0,0.0,2.0,M,(M2),0.0,1
+Male,96.0,Caucasian,0.0,0.0,0.0,0.0,M,(F6),1.0,1
+Male,40.0,African-American,0.0,0.0,0.0,2.0,F,Not applicable,0.0,1
+Female,30.0,Caucasian,0.0,0.0,0.0,2.0,M,(F6),1.0,0
+Male,45.0,Caucasian,0.0,0.0,0.0,4.0,M,(CO3),1.0,0
+Male,42.0,Caucasian,0.0,0.0,0.0,2.0,F,(F7),1.0,1
+Female,32.0,Other,0.0,0.0,0.0,0.0,F,(CO3),1.0,0
+Male,29.0,Other,0.0,0.0,0.0,1.0,F,Not applicable,1.0,0
+Male,29.0,Caucasian,0.0,0.0,0.0,1.0,F,(M1),0.0,0
+Male,35.0,Other,0.0,0.0,0.0,1.0,F,Not applicable,1.0,1
+Male,52.0,African-American,0.0,0.0,0.0,38.0,F,Not applicable,0.0,1
+Male,24.0,African-American,0.0,0.0,0.0,2.0,M,(F6),0.0,0
+Male,46.0,Caucasian,0.0,0.0,0.0,2.0,F,(F5),0.0,1
+Male,31.0,African-American,0.0,0.0,0.0,1.0,F,(F1),1.0,0
+Male,25.0,Caucasian,0.0,0.0,0.0,0.0,M,(M1),0.0,1
+Male,26.0,African-American,0.0,0.0,0.0,1.0,F,(F3),0.0,1
+Male,96.0,Other,0.0,0.0,0.0,3.0,F,(M2),1.0,1
+Male,25.0,Other,0.0,0.0,0.0,1.0,F,(F7),1.0,0
+Male,51.0,Caucasian,0.0,0.0,0.0,38.0,F,Not applicable,1.0,1
+Male,27.0,African-American,0.0,0.0,0.0,2.0,F,(CO3),0.0,0
+Male,29.0,Caucasian,0.0,0.0,0.0,1.0,F,(MO3),1.0,0
+Male,29.0,Caucasian,0.0,0.0,0.0,1.0,F,Not applicable,1.0,0
+Male,37.0,Caucasian,0.0,0.0,0.0,0.0,F,(F3),0.0,1
+Male,96.0,African-American,0.0,0.0,0.0,15.0,M,(F3),0.0,0
+Male,44.0,Caucasian,0.0,0.0,0.0,2.0,F,(MO3),1.0,1
+Male,36.0,African-American,0.0,0.0,0.0,2.0,F,(F1),0.0,1
+Male,56.0,Caucasian,0.0,0.0,0.0,2.0,F,(M2),0.0,0
+Male,52.0,Caucasian,0.0,0.0,0.0,1.0,F,Not applicable,1.0,1
+Female,38.0,Other,0.0,0.0,0.0,2.0,F,(M2),1.0,0
+Female,53.0,Caucasian,0.0,0.0,0.0,2.0,F,(F1),1.0,0
+Male,26.0,African-American,0.0,0.0,0.0,4.0,M,(F2),0.0,1
+Male,28.0,Caucasian,0.0,0.0,0.0,1.0,F,(F1),0.0,0
+Male,54.0,Caucasian,0.0,0.0,0.0,4.0,F,(F3),0.0,1
+Male,25.0,Caucasian,0.0,0.0,0.0,1.0,F,(F1),1.0,0
+Male,31.0,African-American,0.0,0.0,0.0,1.0,F,(CO3),0.0,0
+Female,28.0,Caucasian,0.0,0.0,0.0,5.0,M,(M1),1.0,1
+Female,43.489998,Caucasian,0.0,0.0,0.0,38.0,F,Not applicable,0.0,1
+Male,30.0,African-American,0.0,0.0,0.0,2.0,M,(M1),0.0,0
+Male,41.0,Caucasian,0.0,0.0,0.0,8.0,F,(F3),1.0,0
+Female,26.0,Other,0.0,0.0,0.0,3.0,F,Not applicable,1.0,0
+Female,25.0,African-American,0.0,0.0,0.0,1.0,M,(MO3),0.0,1
+Female,37.0,Caucasian,0.0,0.0,0.0,5.0,F,(F5),0.0,1
+Male,52.0,Caucasian,0.0,0.0,0.0,4.0,M,(F6),0.0,1
+Male,39.894073,Caucasian,0.0,0.0,0.0,1.0,F,Not applicable,0.0,0
+Male,35.0,African-American,0.0,0.0,0.0,2.0,F,(M2),1.0,1
+Male,30.0,Caucasian,0.0,0.0,0.0,4.0,M,Not applicable,0.0,0
+Male,25.0,Caucasian,0.0,0.0,0.0,0.0,F,Not applicable,1.0,1
+Male,58.0,African-American,0.0,0.0,0.0,2.0,F,(M1),1.0,1
+Female,34.0,Caucasian,0.0,0.0,0.0,1.0,F,(F3),1.0,1
+Female,31.0,Caucasian,0.0,0.0,0.0,6.0,F,(F3),1.0,0
+Female,32.0,Caucasian,0.0,0.0,0.0,1.0,M,(M2),0.0,0
+Male,54.0,Caucasian,0.0,0.0,0.0,1.0,F,(F7),1.0,1
+Male,24.0,Caucasian,0.0,0.0,0.0,0.0,F,(F5),1.0,1
+Male,48.89515,Caucasian,0.0,0.0,0.0,2.0,F,(CO3),0.0,0
+Male,29.0,African-American,0.0,0.0,0.0,3.0,F,(MO3),0.0,0
+Male,29.0,Other,0.0,0.0,0.0,0.0,F,(M2),0.0,0
+Male,34.0,Caucasian,0.0,0.0,0.0,1.0,M,(F3),0.0,0
+Female,34.0,African-American,0.0,0.0,0.0,2.0,F,Not applicable,1.0,0
+Female,22.0,African-American,0.0,0.0,0.0,1.0,F,(F3),0.0,1
+Female,30.0,Caucasian,0.0,0.0,0.0,2.0,M,Not applicable,1.0,1
+Male,42.306923,Caucasian,0.0,0.0,0.0,1.0,F,(F7),0.0,0
+Male,58.0,Caucasian,0.0,0.0,0.0,10.0,F,(M2),0.0,0
+Male,37.0,Caucasian,0.0,0.0,0.0,1.0,F,(F5),0.0,1
+Female,96.0,Caucasian,0.0,0.0,0.0,38.0,F,(M2),1.0,1
+Female,30.0,African-American,0.0,0.0,0.0,0.0,F,Not applicable,0.0,1
+Male,96.0,African-American,0.0,0.0,0.0,8.0,M,(M2),0.0,1
+Male,22.0,African-American,0.0,0.0,0.0,7.0,F,(F3),1.0,0
+Male,96.0,African-American,0.0,0.0,0.0,2.0,F,(M1),1.0,1
+Male,23.0,Other,0.0,0.0,0.0,2.0,F,(CO3),0.0,0
+Female,30.0,Caucasian,0.0,0.0,0.0,1.0,F,(MO3),1.0,1

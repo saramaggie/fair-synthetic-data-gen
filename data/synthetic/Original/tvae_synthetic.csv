@@ -1,0 +1,101 @@
+sex,age,age_cat,race,juv_fel_count,juv_misd_count,juv_other_count,priors_count,c_charge_degree,c_charge_desc,r_charge_degree,r_charge_desc,two_year_recid,is_recid
+Male,50,Greater than 45,Caucasian,0,0,0,1,F,arrest case no charge,Not applicable,Not applicable,0,1
+Male,64,Greater than 45,Caucasian,0,0,0,0,M,Battery,Not applicable,Not applicable,0,0
+Male,26,25 - 45,African-American,0,0,0,1,F,arrest case no charge,(M1),Not applicable,1,1
+Male,22,25 - 45,African-American,0,0,0,1,F,Battery,Not applicable,Not applicable,0,0
+Male,29,25 - 45,African-American,0,0,0,1,F,arrest case no charge,Not applicable,Not applicable,0,0
+Male,27,25 - 45,African-American,0,0,0,1,F,arrest case no charge,Not applicable,Not applicable,0,0
+Male,29,25 - 45,African-American,0,0,0,0,F,arrest case no charge,(M1),Driving License Suspended,1,1
+Male,30,25 - 45,African-American,0,0,0,0,F,Battery,Not applicable,Not applicable,0,0
+Male,27,25 - 45,African-American,0,0,0,1,F,arrest case no charge,Not applicable,Not applicable,0,0
+Male,25,25 - 45,African-American,0,0,0,1,F,arrest case no charge,(M2),Not applicable,1,1
+Male,27,25 - 45,African-American,0,0,0,1,F,arrest case no charge,Not applicable,Not applicable,0,0
+Male,22,Less than 25,African-American,0,0,0,1,F,arrest case no charge,Not applicable,Not applicable,0,1
+Male,25,25 - 45,African-American,0,0,0,0,F,Battery,Not applicable,Not applicable,0,0
+Male,26,25 - 45,African-American,0,0,0,0,F,Battery,Not applicable,Not applicable,0,0
+Male,30,25 - 45,African-American,0,0,0,1,F,arrest case no charge,(M1),Driving License Suspended,1,1
+Male,25,25 - 45,African-American,0,0,0,0,F,arrest case no charge,(M1),Possess Cannabis/20 Grams Or Less,1,1
+Male,25,25 - 45,African-American,0,0,0,0,F,Battery,(M1),Not applicable,1,1
+Male,26,25 - 45,African-American,0,0,0,1,F,arrest case no charge,Not applicable,Not applicable,0,0
+Male,22,Less than 25,African-American,0,0,0,1,F,Battery,(M1),Not applicable,1,1
+Male,21,25 - 45,African-American,0,0,0,0,F,arrest case no charge,(M1),Possess Cannabis/20 Grams Or Less,1,1
+Male,28,25 - 45,African-American,0,0,0,1,F,arrest case no charge,(M1),Driving License Suspended,1,1
+Male,31,25 - 45,African-American,0,0,0,0,F,arrest case no charge,(M1),Not applicable,1,1
+Male,21,25 - 45,African-American,0,0,0,1,F,arrest case no charge,(M1),Not applicable,1,1
+Male,24,25 - 45,African-American,0,0,0,1,F,arrest case no charge,(M1),Driving License Suspended,1,1
+Male,33,25 - 45,African-American,0,0,0,1,F,Battery,Not applicable,Not applicable,0,0
+Male,27,25 - 45,African-American,0,0,0,0,F,Battery,Not applicable,Not applicable,0,1
+Male,27,25 - 45,Caucasian,0,0,0,0,F,Battery,Not applicable,Not applicable,0,1
+Male,27,25 - 45,African-American,0,0,0,1,F,arrest case no charge,Not applicable,Not applicable,0,1
+Male,51,Greater than 45,African-American,0,0,0,0,F,Battery,Not applicable,Not applicable,0,0
+Male,27,25 - 45,African-American,0,0,0,1,F,Battery,Not applicable,Not applicable,0,1
+Male,51,Greater than 45,African-American,0,0,0,0,F,Battery,Not applicable,Not applicable,0,0
+Male,29,25 - 45,African-American,0,0,0,1,F,Battery,Not applicable,Not applicable,0,0
+Male,21,25 - 45,African-American,0,0,0,1,F,Battery,Not applicable,Not applicable,0,0
+Male,28,25 - 45,African-American,0,0,0,1,F,Battery,(M1),Driving License Suspended,1,1
+Male,23,25 - 45,African-American,0,0,0,1,F,arrest case no charge,(M1),Possess Cannabis/20 Grams Or Less,1,1
+Male,55,Greater than 45,Caucasian,0,0,0,0,F,arrest case no charge,Not applicable,Not applicable,0,1
+Male,25,25 - 45,African-American,0,0,0,1,F,arrest case no charge,(M1),Driving License Suspended,1,1
+Male,28,25 - 45,African-American,0,0,0,1,F,arrest case no charge,Not applicable,Not applicable,1,1
+Male,27,25 - 45,African-American,0,0,0,1,F,Battery,(M2),Not applicable,1,1
+Male,61,Greater than 45,Caucasian,0,0,0,1,F,Battery,Not applicable,Not applicable,0,0
+Male,28,25 - 45,African-American,0,0,0,1,F,arrest case no charge,(M1),Not applicable,1,1
+Male,26,25 - 45,African-American,0,0,0,0,F,arrest case no charge,(M1),Driving License Suspended,1,1
+Male,25,25 - 45,African-American,0,0,0,0,F,Battery,Not applicable,Not applicable,0,0
+Male,29,25 - 45,African-American,0,0,0,0,F,arrest case no charge,(F3),Not applicable,1,1
+Male,56,25 - 45,Caucasian,0,0,0,0,M,Battery,Not applicable,Not applicable,0,0
+Male,27,25 - 45,African-American,0,0,0,0,F,arrest case no charge,(M1),Driving License Suspended,1,1
+Male,53,Greater than 45,African-American,0,0,0,0,F,arrest case no charge,(F3),Not applicable,1,1
+Male,21,25 - 45,African-American,0,0,0,0,F,Battery,Not applicable,Not applicable,0,0
+Male,28,25 - 45,African-American,0,0,0,0,F,Battery,(M1),Not applicable,1,1
+Male,21,Less than 25,African-American,0,0,0,0,F,Battery,Not applicable,Not applicable,0,1
+Male,26,25 - 45,African-American,0,0,0,0,F,Battery,Not applicable,Not applicable,0,0
+Male,25,25 - 45,African-American,0,0,0,0,F,Battery,Not applicable,Not applicable,0,0
+Male,27,25 - 45,African-American,0,0,0,1,F,Battery,Not applicable,Not applicable,0,0
+Male,27,25 - 45,African-American,0,0,0,1,F,arrest case no charge,Not applicable,Not applicable,0,0
+Male,21,Less than 25,African-American,0,0,0,1,F,arrest case no charge,(M1),Possess Cannabis/20 Grams Or Less,1,1
+Male,28,25 - 45,African-American,0,0,0,1,F,arrest case no charge,(M1),Not applicable,1,1
+Male,20,25 - 45,African-American,0,0,0,0,F,Battery,(M1),Possess Cannabis/20 Grams Or Less,1,1
+Male,26,25 - 45,African-American,0,0,0,1,F,arrest case no charge,(M1),Driving License Suspended,1,1
+Male,25,25 - 45,African-American,0,0,0,1,F,Battery,Not applicable,Not applicable,0,0
+Male,29,25 - 45,African-American,0,0,0,1,F,Battery,Not applicable,Not applicable,0,0
+Male,27,25 - 45,African-American,0,0,0,0,F,Battery,Not applicable,Not applicable,0,0
+Male,27,25 - 45,African-American,0,0,0,0,F,Battery,Not applicable,Not applicable,0,1
+Male,26,25 - 45,African-American,0,0,0,0,F,arrest case no charge,(M1),Not applicable,1,1
+Male,28,25 - 45,African-American,0,0,0,0,F,arrest case no charge,Not applicable,Not applicable,0,0
+Male,28,25 - 45,African-American,0,0,0,1,F,arrest case no charge,Not applicable,Not applicable,0,0
+Male,22,Less than 25,African-American,0,0,0,0,F,Battery,(M1),Not applicable,1,1
+Male,26,25 - 45,African-American,0,0,0,1,F,Battery,Not applicable,Not applicable,0,0
+Male,23,25 - 45,African-American,0,0,0,0,F,Battery,Not applicable,Not applicable,0,0
+Male,23,25 - 45,African-American,0,0,0,1,F,arrest case no charge,(M1),Not applicable,1,1
+Male,29,25 - 45,African-American,0,0,0,0,F,Battery,(M1),Driving License Suspended,1,1
+Male,27,25 - 45,African-American,0,0,0,1,F,Battery,(M1),Not applicable,1,1
+Male,56,25 - 45,African-American,0,0,0,1,F,arrest case no charge,Not applicable,Not applicable,1,1
+Male,24,25 - 45,African-American,0,0,0,0,F,Battery,Not applicable,Not applicable,0,0
+Male,60,Greater than 45,African-American,0,0,0,1,F,arrest case no charge,Not applicable,Not applicable,0,0
+Male,24,25 - 45,African-American,0,0,0,0,F,Battery,Not applicable,Not applicable,0,0
+Male,21,25 - 45,African-American,0,0,0,0,F,Battery,Not applicable,Not applicable,0,0
+Male,24,25 - 45,African-American,0,0,0,1,F,arrest case no charge,(M1),Not applicable,1,1
+Male,29,25 - 45,Caucasian,0,0,0,1,M,Battery,Not applicable,Not applicable,0,0
+Male,53,25 - 45,African-American,0,0,0,0,F,Battery,Not applicable,Not applicable,0,0
+Male,28,25 - 45,African-American,0,0,0,1,F,arrest case no charge,Not applicable,Not applicable,0,1
+Male,28,25 - 45,African-American,0,0,0,1,F,arrest case no charge,Not applicable,Not applicable,1,1
+Male,24,25 - 45,African-American,0,0,0,1,F,Battery,Not applicable,Not applicable,0,0
+Male,24,25 - 45,African-American,0,0,0,1,F,arrest case no charge,Not applicable,Not applicable,0,0
+Male,26,25 - 45,African-American,0,0,0,0,F,Battery,Not applicable,Not applicable,1,1
+Male,28,25 - 45,Caucasian,0,0,0,1,F,Battery,Not applicable,Not applicable,0,0
+Male,28,25 - 45,African-American,0,0,0,1,F,arrest case no charge,(M1),Driving License Suspended,1,1
+Male,29,25 - 45,African-American,0,0,0,1,F,arrest case no charge,Not applicable,Not applicable,0,0
+Male,50,25 - 45,Caucasian,0,0,0,0,M,Battery,Not applicable,Not applicable,0,0
+Male,28,25 - 45,African-American,0,0,0,0,F,Battery,Not applicable,Not applicable,0,0
+Male,24,25 - 45,African-American,0,0,0,1,F,arrest case no charge,Not applicable,Not applicable,0,0
+Male,54,25 - 45,African-American,0,0,0,1,F,arrest case no charge,Not applicable,Not applicable,0,0
+Male,27,25 - 45,African-American,0,0,0,1,F,arrest case no charge,(M1),Not applicable,1,1
+Male,24,25 - 45,African-American,0,0,0,1,F,Battery,Not applicable,Not applicable,0,0
+Male,26,25 - 45,African-American,0,0,0,0,F,arrest case no charge,Not applicable,Not applicable,1,1
+Male,24,25 - 45,African-American,0,0,0,1,F,arrest case no charge,(M1),Not applicable,1,1
+Male,26,25 - 45,African-American,0,0,0,1,F,arrest case no charge,(M1),Driving License Suspended,1,1
+Male,23,25 - 45,African-American,0,0,0,0,F,arrest case no charge,(M1),Possess Cannabis/20 Grams Or Less,1,1
+Male,26,25 - 45,African-American,0,0,0,1,F,arrest case no charge,Not applicable,Not applicable,0,0
+Male,25,25 - 45,African-American,0,0,0,0,F,Battery,Not applicable,Not applicable,0,0
+Male,24,25 - 45,African-American,0,0,0,0,F,Battery,Not applicable,Not applicable,0,0

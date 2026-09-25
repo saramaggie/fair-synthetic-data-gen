@@ -226,24 +226,20 @@ class FairGAN:
             if self.verbose and epoch % 5 == 0:
                 print(f"[Pretrain] epoch {epoch} | loss {loss.item():.4f}")
 
-    def train(
-        self,
-        lambda_fair=0.05,
-        lr=None,
-        log_every=10,
-    ):
+    def train(self, lambda_fair=0.05, lr=None, log_every=10):
+
         if lr is None:
             lr = self._lr
 
-        S_index = self.df.columns.get_loc(self.sensitive_feature)
-        # Y_index = self.df.columns.get_loc(self.target_feature)
+        if not hasattr(self, "_generator"):
+            self.pretrain(lr=lr)
 
         self._discriminator = Discriminator(x_dim=self.x_dim)
         self._fairness_discriminator = FairnessDiscriminator(x_dim=self.x_dim)
 
         criterion = nn.BCELoss()
 
-        g_optimizer = optim.Adam(self._generator.parameters(), lr=lr)
+        g_optim = optim.Adam(self._generator.parameters(), lr=lr)
         d1_optim = optim.Adam(self._discriminator.parameters(), lr=lr)
         d2_optim = optim.Adam(self._fairness_discriminator.parameters(), lr=lr)
 
@@ -252,7 +248,6 @@ class FairGAN:
         p_s1 = s.mean().item()
 
         for epoch in range(self.epochs):
-            # TODO: Where does lambda fair go
             real_labels = torch.ones(n, 1)
             fake_labels = torch.zeros(n, 1)
 
@@ -273,36 +268,56 @@ class FairGAN:
             d1_loss.backward()
             d1_optim.step()
 
-            # Train D2 (predict S)
-            S_real = data[:, S_index].unsqueeze(1)
+            # === Update GDec to fool D1 (descend)
+            z = torch.randn(n, self.noise_dim)
+            s_hat = self._sample_s(n, p_s1)
+            x_hat, y_hat_logit = self._generator(z, s_hat)
+            y_hat = torch.sigmoid(y_hat_logit)
+            g_loss = criterion(self._discriminator(x_hat, y_hat, s_hat), real_labels)
 
-            d2_pred = self._fairness_discriminator(data)
-            d2_loss = criterion(d2_pred, S_real)
+            g_optim.zero_grad()
+            g_loss.backward()
+            g_optim.step()
+
+            ## --- sample fake batches split by s_hat, for D2 ---
+            z1 = torch.randn(n, self.noise_dim)
+            x1, y1_logit = self._generator(z1, torch.ones(n, 1))
+            y1 = torch.sigmoid(y1_logit)
+
+            z0 = torch.randn(n, self.noise_dim)
+            x0, y0_logit = self._generator(z0, torch.zeros(n, 1))
+            y0 = torch.sigmoid(y0_logit)
+
+            # === Update D2 (ascend) on GENERATED data grouped by s_hat ===
+            d2_pred_1 = self._fairness_discriminator(x1.detach(), y1.detach())
+            d2_pred_0 = self._fairness_discriminator(x0.detach(), y0.detach())
+            d2_loss = criterion(d2_pred_1, real_labels) + criterion(
+                d2_pred_0, fake_labels
+            )
 
             d2_optim.zero_grad()
             d2_loss.backward()
             d2_optim.step()
 
-            # Train Generator
+            # === Update GDec once on the combined loss ===
             z = torch.randn(n, self.noise_dim)
-            fake_data = self._generator(z)
+            s_hat = self._sample_s(n, p_s1)
+            x_hat, y_hat_logit = self._generator(z, s_hat)
+            y_hat = torch.sigmoid(y_hat_logit)
 
             # GAN loss (fool D1)
-            g_loss = criterion(self._discriminator(fake_data), real_labels)
+            g_loss = criterion(self._discriminator(x_hat, y_hat, s_hat), real_labels)
 
-            # FAIRNESS loss (Xu-style)
-            S_fake_pred = self._fairness_discriminator(fake_data)
+            # Fairness loss (fool D2): push it toward uncertainty (0.5)
+            s_hat_pred = self._fairness_discriminator(x_hat, y_hat)
+            target_uncertain = torch.full_like(s_hat_pred, 0.5)
+            fair_loss = criterion(s_hat_pred, target_uncertain)
 
-            # push D2 to be uncertain (0.5)
-            target_uncertain = torch.full_like(S_fake_pred, 0.5)
-            fair_loss = criterion(S_fake_pred, target_uncertain)
-
-            # TOTAL LOSS
             total_g_loss = g_loss + lambda_fair * fair_loss
 
-            g_optimizer.zero_grad()
+            g_optim.zero_grad()
             total_g_loss.backward()
-            g_optimizer.step()
+            g_optim.step()
 
             if self.verbose and epoch % log_every == 0:
                 print(
@@ -333,7 +348,7 @@ class FairGAN:
         synthetic = pd.DataFrame(x_hat.numpy(), columns=self.feature_columns)
         synthetic[self.target_feature] = y_hat.numpy()
         synthetic[self.sensitive_feature] = s_hat.numpy()
-        synthetic = synthetic[self.df.columns]  # restore original column order
+        synthetic = synthetic[self.df.columns]
 
         # Reverse Scaling
         if self.numeric_columns:

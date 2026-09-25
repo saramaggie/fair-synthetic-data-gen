@@ -40,3 +40,101 @@ Training TabFairGAN with lambda = 0.7
 2026-09-25 11:43:13,038 [run_TabFairGAN] [INFO]  
 Training TabFairGAN with lambda = 1.0
 2026-09-25 11:45:36,102 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0
+2026-09-25 11:57:14,950 [<module>] [INFO]  Successfully trained: ctgan
+2026-09-25 11:57:14,990 [<module>] [INFO]  Successfully trained: FairGAN_0.0
+2026-09-25 11:57:14,992 [<module>] [WARNING]  Skipping FairGAN_0.1: Found only 1 class
+2026-09-25 11:57:15,008 [<module>] [ERROR]  Failed to train FairGAN_0.1: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(1)
+2026-09-25 11:57:15,009 [<module>] [WARNING]  Skipping FairGAN_0.5: Found only 1 class
+2026-09-25 11:57:15,024 [<module>] [ERROR]  Failed to train FairGAN_0.5: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(1)
+2026-09-25 11:57:15,142 [<module>] [INFO]  Successfully trained: FairGAN_0.7
+2026-09-25 11:57:15,195 [<module>] [INFO]  Successfully trained: FairGAN_1.0
+2026-09-25 11:57:15,249 [<module>] [INFO]  Successfully trained: TabFairGAN_0.0
+2026-09-25 11:57:15,295 [<module>] [INFO]  Successfully trained: TabFairGAN_0.1
+2026-09-25 11:57:15,340 [<module>] [INFO]  Successfully trained: TabFairGAN_0.5
+2026-09-25 11:57:15,389 [<module>] [INFO]  Successfully trained: TabFairGAN_0.7
+2026-09-25 11:57:15,529 [<module>] [INFO]  Successfully trained: TabFairGAN_1.0
+2026-09-25 11:57:15,581 [<module>] [INFO]  Successfully trained: tvae
+2026-09-25 12:44:26,583 [<module>] [INFO]  Successfully trained: ctgan
+2026-09-25 12:44:26,583 [<module>] [INFO]  Successfully trained: ctgan
+2026-09-25 12:44:26,667 [<module>] [INFO]  Successfully trained: FairGAN_0.0
+2026-09-25 12:44:26,667 [<module>] [INFO]  Successfully trained: FairGAN_0.0
+2026-09-25 12:44:26,671 [<module>] [WARNING]  Skipping FairGAN_0.1: Found only 1 class
+2026-09-25 12:44:26,671 [<module>] [WARNING]  Skipping FairGAN_0.1: Found only 1 class
+2026-09-25 12:44:26,715 [<module>] [ERROR]  Failed to train FairGAN_0.1: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(1)
+2026-09-25 12:44:26,715 [<module>] [ERROR]  Failed to train FairGAN_0.1: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(1)
+2026-09-25 12:44:26,718 [<module>] [WARNING]  Skipping FairGAN_0.5: Found only 1 class
+2026-09-25 12:44:26,718 [<module>] [WARNING]  Skipping FairGAN_0.5: Found only 1 class
+2026-09-25 12:44:26,732 [<module>] [ERROR]  Failed to train FairGAN_0.5: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(1)
+2026-09-25 12:44:26,732 [<module>] [ERROR]  Failed to train FairGAN_0.5: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(1)
+2026-09-25 12:44:26,884 [<module>] [INFO]  Successfully trained: FairGAN_0.7
+2026-09-25 12:44:26,884 [<module>] [INFO]  Successfully trained: FairGAN_0.7
+2026-09-25 12:44:26,935 [<module>] [INFO]  Successfully trained: FairGAN_1.0
+2026-09-25 12:44:26,935 [<module>] [INFO]  Successfully trained: FairGAN_1.0
+2026-09-25 12:44:26,992 [<module>] [INFO]  Successfully trained: TabFairGAN_0.0
+2026-09-25 12:44:26,992 [<module>] [INFO]  Successfully trained: TabFairGAN_0.0
+2026-09-25 12:44:27,045 [<module>] [INFO]  Successfully trained: TabFairGAN_0.1
+2026-09-25 12:44:27,045 [<module>] [INFO]  Successfully trained: TabFairGAN_0.1
+2026-09-25 12:44:27,097 [<module>] [INFO]  Successfully trained: TabFairGAN_0.5
+2026-09-25 12:44:27,097 [<module>] [INFO]  Successfully trained: TabFairGAN_0.5
+2026-09-25 12:44:27,146 [<module>] [INFO]  Successfully trained: TabFairGAN_0.7
+2026-09-25 12:44:27,146 [<module>] [INFO]  Successfully trained: TabFairGAN_0.7
+2026-09-25 12:44:27,306 [<module>] [INFO]  Successfully trained: TabFairGAN_1.0
+2026-09-25 12:44:27,306 [<module>] [INFO]  Successfully trained: TabFairGAN_1.0
+2026-09-25 12:44:27,415 [<module>] [INFO]  Successfully trained: tvae
+2026-09-25 12:44:27,415 [<module>] [INFO]  Successfully trained: tvae
+2026-09-25 12:47:45,786 [<module>] [INFO]  Successfully trained: ctgan
+2026-09-25 12:47:45,816 [<module>] [INFO]  Successfully trained: FairGAN_0.0
+2026-09-25 12:47:45,818 [<module>] [WARNING]  Skipping FairGAN_0.1: Found only 1 class
+2026-09-25 12:47:45,834 [<module>] [ERROR]  Failed to train FairGAN_0.1: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(1)
+2026-09-25 12:47:45,836 [<module>] [WARNING]  Skipping FairGAN_0.5: Found only 1 class
+2026-09-25 12:47:45,850 [<module>] [ERROR]  Failed to train FairGAN_0.5: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(1)
+2026-09-25 12:47:45,982 [<module>] [INFO]  Successfully trained: FairGAN_0.7
+2026-09-25 12:47:46,046 [<module>] [INFO]  Successfully trained: FairGAN_1.0
+2026-09-25 12:47:46,121 [<module>] [INFO]  Successfully trained: TabFairGAN_0.0
+2026-09-25 12:47:46,301 [<module>] [INFO]  Successfully trained: TabFairGAN_0.1
+2026-09-25 12:47:46,357 [<module>] [INFO]  Successfully trained: TabFairGAN_0.5
+2026-09-25 12:47:46,399 [<module>] [INFO]  Successfully trained: TabFairGAN_0.7
+2026-09-25 12:47:46,559 [<module>] [INFO]  Successfully trained: TabFairGAN_1.0
+2026-09-25 12:47:46,618 [<module>] [INFO]  Successfully trained: tvae
+2026-09-25 13:15:39,186 [<module>] [INFO]  Successfully trained: ctgan
+2026-09-25 13:15:39,221 [<module>] [INFO]  Successfully trained: FairGAN_0.0
+2026-09-25 13:15:39,224 [<module>] [WARNING]  Skipping FairGAN_0.1: Found only 1 class
+2026-09-25 13:15:39,237 [<module>] [ERROR]  Failed to train FairGAN_0.1: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(1)
+2026-09-25 13:15:39,240 [<module>] [WARNING]  Skipping FairGAN_0.5: Found only 1 class
+2026-09-25 13:15:39,253 [<module>] [ERROR]  Failed to train FairGAN_0.5: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(1)
+2026-09-25 13:15:39,407 [<module>] [INFO]  Successfully trained: FairGAN_0.7
+2026-09-25 13:15:39,458 [<module>] [INFO]  Successfully trained: FairGAN_1.0
+2026-09-25 13:15:39,580 [<module>] [INFO]  Successfully trained: TabFairGAN_0.0
+2026-09-25 13:15:39,682 [<module>] [INFO]  Successfully trained: TabFairGAN_0.1
+2026-09-25 13:15:39,735 [<module>] [INFO]  Successfully trained: TabFairGAN_0.5
+2026-09-25 13:15:39,790 [<module>] [INFO]  Successfully trained: TabFairGAN_0.7
+2026-09-25 13:15:39,962 [<module>] [INFO]  Successfully trained: TabFairGAN_1.0
+2026-09-25 13:15:40,017 [<module>] [INFO]  Successfully trained: tvae
+2026-09-25 13:25:47,690 [<module>] [INFO]  Successfully trained: ctgan
+2026-09-25 13:25:47,721 [<module>] [INFO]  Successfully trained: FairGAN_0.0
+2026-09-25 13:25:47,723 [<module>] [WARNING]  Skipping FairGAN_0.1: Found only 1 class
+2026-09-25 13:25:47,735 [<module>] [ERROR]  Failed to train FairGAN_0.1: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(1)
+2026-09-25 13:25:47,736 [<module>] [WARNING]  Skipping FairGAN_0.5: Found only 1 class
+2026-09-25 13:25:47,747 [<module>] [ERROR]  Failed to train FairGAN_0.5: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(1)
+2026-09-25 13:25:47,868 [<module>] [INFO]  Successfully trained: FairGAN_0.7
+2026-09-25 13:25:47,919 [<module>] [INFO]  Successfully trained: FairGAN_1.0
+2026-09-25 13:25:47,973 [<module>] [INFO]  Successfully trained: TabFairGAN_0.0
+2026-09-25 13:25:48,027 [<module>] [INFO]  Successfully trained: TabFairGAN_0.1
+2026-09-25 13:25:48,180 [<module>] [INFO]  Successfully trained: TabFairGAN_0.5
+2026-09-25 13:25:48,229 [<module>] [INFO]  Successfully trained: TabFairGAN_0.7
+2026-09-25 13:25:48,383 [<module>] [INFO]  Successfully trained: TabFairGAN_1.0
+2026-09-25 13:25:48,436 [<module>] [INFO]  Successfully trained: tvae
+2026-09-25 13:31:50,184 [<module>] [INFO]  Successfully trained: ctgan
+2026-09-25 13:31:50,233 [<module>] [INFO]  Successfully trained: FairGAN_0.0
+2026-09-25 13:31:50,235 [<module>] [WARNING]  Skipping FairGAN_0.1: Found only 1 class
+2026-09-25 13:31:50,254 [<module>] [ERROR]  Failed to train FairGAN_0.1: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(1)
+2026-09-25 13:31:50,255 [<module>] [WARNING]  Skipping FairGAN_0.5: Found only 1 class
+2026-09-25 13:31:50,268 [<module>] [ERROR]  Failed to train FairGAN_0.5: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(1)
+2026-09-25 13:31:50,394 [<module>] [INFO]  Successfully trained: FairGAN_0.7
+2026-09-25 13:31:50,443 [<module>] [INFO]  Successfully trained: FairGAN_1.0
+2026-09-25 13:31:50,500 [<module>] [INFO]  Successfully trained: TabFairGAN_0.0
+2026-09-25 13:31:50,552 [<module>] [INFO]  Successfully trained: TabFairGAN_0.1
+2026-09-25 13:31:50,609 [<module>] [INFO]  Successfully trained: TabFairGAN_0.5
+2026-09-25 13:31:50,738 [<module>] [INFO]  Successfully trained: TabFairGAN_0.7
+2026-09-25 13:31:50,889 [<module>] [INFO]  Successfully trained: TabFairGAN_1.0
+2026-09-25 13:31:50,939 [<module>] [INFO]  Successfully trained: tvae

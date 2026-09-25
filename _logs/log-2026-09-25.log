@@ -1,0 +1,42 @@
+2026-09-25 11:26:16,373 [run_CTGAN] [INFO]  
+
+Starting to train CTGAN model
+2026-09-25 11:30:51,091 [run_TVAE] [INFO]  
+
+Starting to train TVAE model
+2026-09-25 11:32:31,229 [run_FairGAN] [INFO]  
+
+Starting to train FairGAN with different lambda_fair values
+2026-09-25 11:32:31,231 [run_FairGAN] [INFO]  
+Training FairGAN with lambda_fair = 0.0
+2026-09-25 11:32:44,126 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.0
+2026-09-25 11:32:44,126 [run_FairGAN] [INFO]  
+Training FairGAN with lambda_fair = 0.1
+2026-09-25 11:32:57,410 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.1
+2026-09-25 11:32:57,411 [run_FairGAN] [INFO]  
+Training FairGAN with lambda_fair = 0.5
+2026-09-25 11:33:10,546 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.5
+2026-09-25 11:33:10,546 [run_FairGAN] [INFO]  
+Training FairGAN with lambda_fair = 0.7
+2026-09-25 11:33:23,858 [run_FairGAN] [INFO]  Completed FairGAN_lambda_0.7
+2026-09-25 11:33:23,858 [run_FairGAN] [INFO]  
+Training FairGAN with lambda_fair = 1.0
+2026-09-25 11:33:36,905 [run_FairGAN] [INFO]  Completed FairGAN_lambda_1.0
+2026-09-25 11:33:36,907 [run_TabFairGAN] [INFO]  
+
+Starting to train TabFairGAN with different lambda values
+2026-09-25 11:33:36,909 [run_TabFairGAN] [INFO]  
+Training TabFairGAN with lambda = 0.0
+2026-09-25 11:36:01,392 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.0
+2026-09-25 11:36:01,392 [run_TabFairGAN] [INFO]  
+Training TabFairGAN with lambda = 0.1
+2026-09-25 11:38:25,909 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.1
+2026-09-25 11:38:25,909 [run_TabFairGAN] [INFO]  
+Training TabFairGAN with lambda = 0.5
+2026-09-25 11:40:50,194 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.5
+2026-09-25 11:40:50,196 [run_TabFairGAN] [INFO]  
+Training TabFairGAN with lambda = 0.7
+2026-09-25 11:43:13,038 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_0.7
+2026-09-25 11:43:13,038 [run_TabFairGAN] [INFO]  
+Training TabFairGAN with lambda = 1.0
+2026-09-25 11:45:36,102 [run_TabFairGAN] [INFO]  Completed TabFairGAN_lambda_1.0

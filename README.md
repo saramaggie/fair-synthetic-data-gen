@@ -9,7 +9,7 @@ This project studies how synthetic tabular data can be generated while preservin
 - FairGAN
 - TabFairGAN
 
-The custom  is in [fairgan.py](fairgan.py), and The training pipeline can be found in [Notebook_Models.ipynb](Notebook_Models.ipynb), and our custom implementation of FairGAN based on the model provided in [(Xu et al. 2018)](#Bibliography).
+The training pipeline can be found in [Notebook_Models.ipynb](Notebook_Models.ipynb), and [fairgan.py](fairgan.py) contain our custom implementation of FairGAN based on the model presented in [(Xu et al. 2018)](#Bibliography).
 
 ## Dataset
 

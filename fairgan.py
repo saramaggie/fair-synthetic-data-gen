@@ -16,6 +16,7 @@ torch.manual_seed(SEED)
 """Model Architecture
 
 FairGAN consists of:
+- Encoder
 - Generator
 - Discriminator
 - Fairness discriminator """
@@ -23,10 +24,7 @@ FairGAN consists of:
 
 # Encoder
 class Encoder(nn.Module):
-    """Encodes (x, y, s) -> z.
-    s: protected attribute
-    z: noice variable
-    """
+    """Encodes (x, y, s) -> z."""
 
     def __init__(self, x_dim: int, noise_dim: int, hidden_dim: int = 128):
         super().__init__()
@@ -36,7 +34,9 @@ class Encoder(nn.Module):
             nn.Linear(hidden_dim, noise_dim),
         )
 
-    def forward(self, x, y, s):
+    def forward(
+        self, x: torch.Tensor, y: torch.Tensor, s: torch.Tensor
+    ) -> torch.Tensor:
         return self.model(torch.cat([x, y, s], dim=1))
 
 
@@ -53,7 +53,9 @@ class Generator(nn.Module):
         self.x_head = nn.Linear(hidden_dim, x_dim)
         self.y_head = nn.Linear(hidden_dim, 1)
 
-    def forward(self, z, s):
+    def forward(
+        self, z: torch.Tensor, s: torch.Tensor
+    ) -> tuple[torch.Tensor, torch.Tensor]:
         h = self.model(torch.cat([z, s], dim=1))
         x_hat = self.x_head(h)
         y_hat_logit = self.y_head(h)
@@ -67,13 +69,15 @@ class Discriminator(nn.Module):
     def __init__(self, x_dim: int, hidden_dim: int = 128):
         super().__init__()
         self.model = nn.Sequential(
-            nn.Linear(x_dim + 2, 128),
+            nn.Linear(x_dim + 2, hidden_dim),
             nn.ReLU(),
             nn.Linear(hidden_dim, 1),
             nn.Sigmoid(),
         )
 
-    def forward(self, x, y, s):
+    def forward(
+        self, x: torch.Tensor, y: torch.Tensor, s: torch.Tensor
+    ) -> torch.Tensor:
         return self.model(torch.cat([x, y, s], dim=1))
 
 
@@ -90,7 +94,7 @@ class FairnessDiscriminator(nn.Module):
             nn.Sigmoid(),
         )
 
-    def forward(self, x, y):
+    def forward(self, x: torch.Tensor, y: torch.Tensor) -> torch.Tensor:
         return self.model(torch.cat([x, y], dim=1))
 
 
@@ -115,9 +119,9 @@ class FairGAN:
         df: pd.DataFrame,
         sensitive_feature: str,
         target_feature: str,
+        pretrain_epochs=20,
         epochs=200,
         batch_size=128,
-        pretrain_epochs=20,
         noise_dim=100,
         lr=0.001,
         verbose=False,
@@ -258,7 +262,7 @@ class FairGAN:
                 real_labels = torch.full((b, 1), 0.9)
                 fake_labels = torch.full((b, 1), 0.1)
 
-                # --- sample one fake batch, shared/detached for D1 + D2 ---
+                # === Sample one fake batch, shared by D1 and D2 updates ===
                 z = torch.randn(b, self.noise_dim)
                 s_hat = self._sample_s(b, p_s1)
                 x_hat, y_hat_logit = self._generator(z, s_hat)

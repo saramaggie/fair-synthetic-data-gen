@@ -1,0 +1,24 @@
+\begin{table}[h!]
+\caption{Utility metrics across all models}
+\label{tab:utility}
+\centering
+\begin{tabular}{lcc}
+\toprule
+Model & Accuracy & AUC \\
+\midrule
+Real & 0.976 & 0.979 \\
+CTGAN & 0.966 & 0.976 \\
+TVAE & 0.974 & 0.978 \\
+FairGAN ($\lambda=0.0$) & 0.640 & 0.689 \\
+FairGAN ($\lambda=0.1$) & 0.651 & 0.723 \\
+FairGAN ($\lambda=0.5$) & 0.492 & 0.448 \\
+FairGAN ($\lambda=0.7$) & 0.522 & 0.329 \\
+FairGAN ($\lambda=1.0$) & 0.552 & 0.504 \\
+TabFairGAN ($\lambda=0.0$) & 0.891 & 0.975 \\
+TabFairGAN ($\lambda=0.1$) & 0.553 & 0.879 \\
+TabFairGAN ($\lambda=0.5$) & 0.527 & 0.873 \\
+TabFairGAN ($\lambda=0.7$) & 0.561 & 0.875 \\
+TabFairGAN ($\lambda=1.0$) & 0.557 & 0.886 \\
+\bottomrule
+\end{tabular}
+\end{table}

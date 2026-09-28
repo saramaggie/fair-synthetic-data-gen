@@ -1,0 +1,23 @@
+\begin{table}[h!]
+\caption{Results across all evaluated model configurations}
+\label{tab:results-all}
+\centering
+\begin{tabular}{lccccccc}
+\toprule
+Model & Accuracy & AUC & DP & DI & Equal Opp. & Equa. Odds & MMD \\
+\midrule
+CTGAN & 0.966 & 0.976 & 0.107 & 0.768 & 0.004 & 0.004 & 0.006 \\
+TVAE & 0.974 & 0.978 & 0.111 & 0.754 & 0.004 & 0.009 & 0.005 \\
+FairGAN ($\lambda=0.0$) & 0.640 & 0.689 & 0.117 & 0.559 & 0.136 & 0.200 & 0.036 \\
+FairGAN ($\lambda=0.1$) & 0.651 & 0.723 & 0.143 & 0.742 & 0.116 & 0.220 & 0.387 \\
+FairGAN ($\lambda=0.5$) & 0.492 & 0.448 & 0.036 & 0.854 & 0.046 & 0.088 & 0.604 \\
+FairGAN ($\lambda=0.7$) & 0.522 & 0.329 & 0.200 & 0.040 & 0.119 & 0.362 & 0.716 \\
+FairGAN ($\lambda=1.0$) & 0.552 & 0.504 & 0.003 & 0.985 & 0.017 & 0.042 & 0.130 \\
+TabFairGAN ($\lambda=0.0$) & 0.891 & 0.975 & 0.046 & 0.871 & 0.109 & 0.111 & 0.205 \\
+TabFairGAN ($\lambda=0.1$) & 0.553 & 0.879 & 0.704 & 0.296 & 0.178 & 1.178 & 0.088 \\
+TabFairGAN ($\lambda=0.5$) & 0.527 & 0.873 & 0.859 & 0.140 & 0.611 & 1.610 & 0.066 \\
+TabFairGAN ($\lambda=0.7$) & 0.561 & 0.875 & 0.660 & 0.340 & 0.056 & 1.056 & 0.196 \\
+TabFairGAN ($\lambda=1.0$) & 0.557 & 0.886 & 0.680 & 0.320 & 0.111 & 1.111 & 0.472 \\
+\bottomrule
+\end{tabular}
+\end{table}

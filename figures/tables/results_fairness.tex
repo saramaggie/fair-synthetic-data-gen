@@ -1,0 +1,24 @@
+\begin{table}[h!]
+\caption{Fairness metrics across all models}
+\label{tab:fairness}
+\centering
+\begin{tabular}{lcccc}
+\toprule
+Model & DP & DI & Equal Opp. & Equa. Odds \\
+\midrule
+Real & 0.109 & 0.757 & 0.004 & 0.006 \\
+CTGAN & 0.107 & 0.768 & 0.004 & 0.004 \\
+TVAE & 0.111 & 0.754 & 0.004 & 0.009 \\
+FairGAN ($\lambda=0.0$) & 0.117 & 0.559 & 0.136 & 0.200 \\
+FairGAN ($\lambda=0.1$) & 0.143 & 0.742 & 0.116 & 0.220 \\
+FairGAN ($\lambda=0.5$) & 0.036 & 0.854 & 0.046 & 0.088 \\
+FairGAN ($\lambda=0.7$) & 0.200 & 0.040 & 0.119 & 0.362 \\
+FairGAN ($\lambda=1.0$) & 0.003 & 0.985 & 0.017 & 0.042 \\
+TabFairGAN ($\lambda=0.0$) & 0.046 & 0.871 & 0.109 & 0.111 \\
+TabFairGAN ($\lambda=0.1$) & 0.704 & 0.296 & 0.178 & 1.178 \\
+TabFairGAN ($\lambda=0.5$) & 0.859 & 0.140 & 0.611 & 1.610 \\
+TabFairGAN ($\lambda=0.7$) & 0.660 & 0.340 & 0.056 & 1.056 \\
+TabFairGAN ($\lambda=1.0$) & 0.680 & 0.320 & 0.111 & 1.111 \\
+\bottomrule
+\end{tabular}
+\end{table}

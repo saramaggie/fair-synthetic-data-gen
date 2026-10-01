@@ -312,6 +312,7 @@ class FairGAN:
                 s_hat_pred = self._fairness_discriminator(x_hat, y_hat)
                 fair_loss = criterion(s_hat_pred, torch.full_like(s_hat_pred, 0.5))
 
+                # Final total generator loss
                 total_g_loss = g_loss + lambda_fair * fair_loss
 
                 g_optim.zero_grad()

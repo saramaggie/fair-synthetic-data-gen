@@ -1,7 +1,7 @@
 import logging
-from datetime import datetime
 import os
 import sys
+from datetime import datetime
 
 DIR_PATH = os.environ["VIRTUAL_ENV"][:-5]
 sys.path.append(DIR_PATH)
